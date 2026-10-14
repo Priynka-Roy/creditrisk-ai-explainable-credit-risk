@@ -440,7 +440,7 @@ def models(data: dict) -> None:
     context(
         "The final-test table reports frozen candidates for comparison. It did not determine the selected model or calibration method; those decisions used development data."
     )
-    st.subheader("Final-test model comparison")
+    st.subheader("Frozen V1 final-test model comparison")
     table(
         comparison_rows(data),
         formats={
@@ -499,8 +499,8 @@ def models(data: dict) -> None:
 def validation(data: dict) -> None:
     header(
         4,
-        "Evidence on untouched customers",
-        "Inspect final-test discrimination, threshold sensitivity and statistical uncertainty. Positive class: recorded next-month payment default.",
+        "Frozen holdout & retrospective evidence",
+        "Inspect preserved V1 test discrimination and V2 retrospective comparisons. The original test customers have already been inspected. Positive class: next-month payment default.",
     )
     views = model_views(data)
     model_name = st.selectbox(
@@ -642,6 +642,9 @@ def validation(data: dict) -> None:
     context(
         "Customer-level stratified bootstrap intervals measure sampling variability within this historical holdout. They do not capture future economic change, geographic transfer or all dependence between customers."
     )
+    from app.v2 import validation_panel
+
+    validation_panel(data.get("_v2"))
 
 
 def calibration(data: dict) -> None:
@@ -783,6 +786,9 @@ def calibration(data: dict) -> None:
         "Points above the diagonal indicate underestimation in that band; points below indicate overestimation. Sparse bands need caution. Calibration intercept and slope summarize different aspects of agreement and can themselves be uncertain."
     )
     case(data, 2)
+    from app.v2 import calibration_panel
+
+    calibration_panel(data.get("_v2"))
 
 
 def explanations(data: dict) -> None:
@@ -1039,12 +1045,15 @@ def loss(data: dict) -> None:
             "The saved probability histogram is unavailable. Regenerate artifacts to enable scenario calculations."
         )
     st.caption(
-        "Assumed scenarios are not estimated recession effects. Uniform exposures and losses deliberately simplify the example; correlation, recoveries, maturity and realized LGD/EAD are not modeled."
+        "These preserved V1 expected-loss illustrations use assumed exposures and LGD; they do not model dependence, recoveries or maturity. The V2 simulation below adds an explicitly assumed dependence scenario. None of these stresses are measured recession effects or realized losses."
     )
     if loss_data.get("scenarios"):
         with st.expander("Reproducible baseline scenarios saved by the pipeline"):
             table(loss_data["scenarios"])
     case(data, 3)
+    from app.v2 import simulation_panel
+
+    simulation_panel(data, data.get("_v2"))
 
 
 def dictionary(data: dict) -> None:
@@ -1096,9 +1105,19 @@ def governance(data: dict) -> None:
         "Governance, evidence and boundaries",
         "Understand the experimental protocol, subgroup diagnostics, reproducibility and the limits of this historical research demonstration.",
     )
-    protocol, subgroups, stability, about = st.tabs(
-        ["Protocol & provenance", "Subgroup diagnostics", "Stability", "Responsible use & about"]
+    monitoring, protocol, subgroups, stability, about = st.tabs(
+        [
+            "V2 monitoring",
+            "Protocol & provenance",
+            "Subgroup diagnostics",
+            "Stability",
+            "Responsible use & about",
+        ]
     )
+    with monitoring:
+        from app.v2 import governance_panel
+
+        governance_panel(data, data.get("_v2"))
     with protocol:
         st.subheader("Frozen experimental design")
         metadata = data["metadata"]
@@ -1335,6 +1354,9 @@ def main() -> None:
             "Regenerate artifacts with the documented offline pipeline. A partial or stale analysis is not displayed as a valid result."
         )
         st.stop()
+    from app.v2 import attach_v2
+
+    data = attach_v2(data)
     renderers = (
         overview,
         explorer,

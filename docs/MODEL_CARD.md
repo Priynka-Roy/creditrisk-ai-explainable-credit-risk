@@ -25,3 +25,9 @@ Version numerical releases with source/split/protocol/artifact hashes and fitted
 ## Selected release path
 
 Histogram gradient boosting with 150 iterations, learning rate 0.05, seven leaves and L2 regularization 10; 23 source predictors plus seven summaries and ratio-availability indicator. No additional probability calibration is applied because independent calibration selection did not favor it. Final ROC-AUC 0.78038, average precision 0.55488, Brier 0.13499 and log loss 0.42919 describe the frozen 6,000-customer random holdout; see validation for uncertainty and denominators.
+
+## Version 2 analytical extension
+
+The selected model/feature/calibration path and numerical V1 reports remain unchanged. Version 2 adds paired comparison intervals, ordinary calibration/subgroup bootstrap, 100 development-only logistic resamples, hypothetical independent/common-factor Monte Carlo losses and an educational governance table. Original-test results are retrospective diagnostics, not new independent validation. The application keeps the same eight sections and accepts no real customer records.
+
+Simulation rho/LGD/EAD/stress are assumed; VaR/ES are finite-run loss-distribution summaries, not regulatory capital. Status within an illustrative tolerance cannot certify production suitability. See [V2 methodology](V2_METHODOLOGY.md), [risk simulation](V2_RISK_SIMULATION.md), [governance risk summary](V2_MODEL_GOVERNANCE.md) and [actual results](V2_RESULTS.md).

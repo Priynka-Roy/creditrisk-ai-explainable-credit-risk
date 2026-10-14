@@ -1,0 +1,226 @@
+{
+  "experiment_id": "creditrisk-v2-retrospective-001",
+  "version": 2,
+  "v1_tag": "v1.0.0",
+  "v1_sha": "790ddbe1db74c4f9258ada80070140e563beec42",
+  "source": {
+    "source_url": "https://archive.ics.uci.edu/static/public/350/default%2Bof%2Bcredit%2Bcard%2Bclients.zip",
+    "doi": "https://doi.org/10.24432/C55S3H",
+    "license": "CC BY 4.0",
+    "attribution": "Yeh, I. (2009). Default of Credit Card Clients. UCI Machine Learning Repository.",
+    "files": {
+      "uci-default-credit-card.zip": {
+        "sha256": "56c885f84457f6680f8438f02bfcdac9579323d8a94465ee5f26e32baa727602",
+        "bytes": 5539494
+      },
+      "default of credit card clients.xls": {
+        "sha256": "30c6be3abd8dcfd3e6096c828bad8c2f011238620f5369220bd60cfc82700933",
+        "bytes": 5539328
+      }
+    }
+  },
+  "v1_file_hashes": {
+    "artifacts/dashboard.json": "f18d9403113eaa671a14e9e851d03023d49c13a96606560496d058ae86f7e971",
+    "reports/results.json": "687b70868880629ee27e0078c510e4a321dec1721a605bbb4f2d44bad484a81e",
+    "reports/frozen_decision.json": "111c42c9d6a9bc2cea14310b926cebd724f36bae2cf1b8383fdbe56d84f28fd3",
+    "reports/data_audit.json": "2a441d58ccb59d9187d6e1957d3739521d508dbef2dfa4d72ffc4d62d56c5db6",
+    "reports/source_manifest.json": "28bab9c962e7871802d6da85ad20107bee693276275e3458b84e6196e0392d03",
+    "configs/protocol.json": "6c211be16b022066edfa713ae94a701538500f1906e5fe263e8df10767638f63",
+    "artifacts/manifest.json": "dcc2e5166155bdce91cfa9caf10c24b5e60cf05f5e582c6c45abb609254b8593"
+  },
+  "configuration": {
+    "version": 2,
+    "experiment_id": "creditrisk-v2-retrospective-001",
+    "paired_bootstrap": {
+      "replicates": 1000,
+      "seed": 142,
+      "primary": [
+        "boosting",
+        "l2"
+      ],
+      "secondary": [
+        [
+          "boosting",
+          "l1"
+        ],
+        [
+          "boosting",
+          "baseline"
+        ]
+      ]
+    },
+    "calibration_bootstrap": {
+      "replicates": 1000,
+      "seed": 242,
+      "minimum_events": 20
+    },
+    "subgroup_bootstrap": {
+      "replicates": 1000,
+      "calibration_replicates": 300,
+      "seed": 342
+    },
+    "stability_bootstrap": {
+      "replicates": 100,
+      "seed": 542,
+      "partition": "training resample; original validation evaluation"
+    },
+    "simulation": {
+      "portfolios": 5000,
+      "portfolio_size": 1000,
+      "batch_size": 250,
+      "seed": 442,
+      "alpha": 0.95,
+      "dependence_rho": 0.15,
+      "currency": "NTD"
+    },
+    "boundaries": "Retrospective diagnostics of already inspected V1 test predictions; no model, feature, calibration, threshold or hyperparameter reselection. Conditional fitted-model uncertainty, not fresh independent validation."
+  },
+  "calibration_method": "V1 none unchanged",
+  "model_reproduction": {
+    "baseline": {
+      "maximum_absolute_metric_difference": 0.0,
+      "parameters": {}
+    },
+    "l2": {
+      "maximum_absolute_metric_difference": 0.0,
+      "parameters": {
+        "model__C": 0.1
+      }
+    },
+    "l1": {
+      "maximum_absolute_metric_difference": 0.0,
+      "parameters": {
+        "model__C": 1
+      }
+    },
+    "boosting": {
+      "maximum_absolute_metric_difference": 0.0,
+      "parameters": {
+        "model__l2_regularization": 10,
+        "model__learning_rate": 0.05,
+        "model__max_leaf_nodes": 7
+      }
+    }
+  },
+  "split_configuration": {
+    "training": {
+      "n": 15000,
+      "events": 3318,
+      "sha256_ids": "2d8317ed4ca08cce55be518207b457f67cd834d335cb4bd396bc32e5a47c3dc9"
+    },
+    "validation": {
+      "n": 4500,
+      "events": 995,
+      "sha256_ids": "d61ec92e0eaafaaa3a78ac7d1e665344d7f87f322b53dcfcfa1f73f720ae47c0"
+    },
+    "calibration": {
+      "n": 4500,
+      "events": 996,
+      "sha256_ids": "28c7d1b72eca76eaf62e2fda1531b37b011e06e1816740c2ae782329327f6e7d"
+    },
+    "test": {
+      "n": 6000,
+      "events": 1327,
+      "sha256_ids": "144ae5f21e5e97bffc53a77521ff134dbed38d384c4de1294443955b6223f301"
+    }
+  },
+  "runtime_seconds": 33.5842714169994,
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "sklearn": "1.7.2",
+    "scipy": "1.16.3"
+  },
+  "test_usage": "Retrospective V2 diagnostic analysis of previously inspected V1 test; no reselection",
+  "governance_tolerances": {
+    "version": "2.0-illustrative-governance",
+    "purpose": "Educational review criteria; not bank policy or production approval",
+    "rules": [
+      {
+        "metric": "roc_auc",
+        "label": "ROC-AUC",
+        "minimum": 0.75,
+        "reference": 1.0,
+        "follow_up": "Review ranking errors and assess a genuinely new validation cohort."
+      },
+      {
+        "metric": "brier",
+        "label": "Brier score",
+        "maximum": 0.15,
+        "reference": 0.0,
+        "follow_up": "Investigate probability errors, prevalence and calibration; do not tune on this inspected test."
+      },
+      {
+        "metric": "log_loss",
+        "label": "Log loss",
+        "maximum": 0.5,
+        "reference": 0.0,
+        "follow_up": "Inspect confidently wrong predictions using independently governed development data."
+      },
+      {
+        "metric": "slope",
+        "label": "Calibration slope",
+        "minimum": 0.8,
+        "maximum": 1.2,
+        "reference": 1.0,
+        "follow_up": "Review calibration uncertainty and obtain a new cohort before considering refitting."
+      },
+      {
+        "metric": "intercept",
+        "label": "Joint calibration intercept",
+        "minimum": -0.1,
+        "maximum": 0.1,
+        "reference": 0.0,
+        "follow_up": "Check prevalence and probability scale alongside slope; this is a jointly estimated intercept."
+      },
+      {
+        "metric": "observed_expected_ratio",
+        "label": "Observed / expected defaults",
+        "minimum": 0.8,
+        "maximum": 1.2,
+        "reference": 1.0,
+        "follow_up": "Inspect sampling uncertainty, event counts and cohort composition."
+      },
+      {
+        "metric": "max_feature_psi",
+        "label": "Maximum feature PSI",
+        "maximum": 0.1,
+        "reference": 0.0,
+        "follow_up": "Review feature distributions and bin counts; random holdout PSI does not establish temporal drift."
+      },
+      {
+        "metric": "prediction_psi",
+        "label": "Prediction PSI",
+        "maximum": 0.1,
+        "reference": 0.0,
+        "follow_up": "Inspect score distributions and collect time-separated cohorts for real drift monitoring."
+      },
+      {
+        "metric": "missing_rate",
+        "label": "Source missing-cell rate",
+        "maximum": 0.0,
+        "reference": 0.0,
+        "follow_up": "Investigate data ingestion and schema; the historical audit does not describe a live feed."
+      },
+      {
+        "metric": "max_group_calibration_gap",
+        "label": "Maximum supported-group calibration gap",
+        "maximum": 0.05,
+        "reference": 0.0,
+        "follow_up": "Inspect group uncertainty and denominators; neither gaps nor apparent parity certify legal fairness."
+      }
+    ],
+    "group_min_n": 100,
+    "group_min_events": 20,
+    "provenance": "Previously inspected V1 holdout and within-cohort distribution audits, displayed retrospectively. No model selection or certification."
+  },
+  "simulation_probability_source": "Deterministic midpoint quantiles of V1 anonymous probability histogram rounded to .001; not an actual customer portfolio",
+  "credit_limit_band_edges": [
+    null,
+    50000.0,
+    140000.0,
+    240000.0,
+    null
+  ]
+}

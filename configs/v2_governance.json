@@ -1,0 +1,19 @@
+{
+  "version": "2.0-illustrative-governance",
+  "purpose": "Educational review criteria; not bank policy or production approval",
+  "rules": [
+    {"metric": "roc_auc", "label": "ROC-AUC", "minimum": 0.75, "reference": 1.0, "follow_up": "Review ranking errors and assess a genuinely new validation cohort."},
+    {"metric": "brier", "label": "Brier score", "maximum": 0.15, "reference": 0.0, "follow_up": "Investigate probability errors, prevalence and calibration; do not tune on this inspected test."},
+    {"metric": "log_loss", "label": "Log loss", "maximum": 0.5, "reference": 0.0, "follow_up": "Inspect confidently wrong predictions using independently governed development data."},
+    {"metric": "slope", "label": "Calibration slope", "minimum": 0.8, "maximum": 1.2, "reference": 1.0, "follow_up": "Review calibration uncertainty and obtain a new cohort before considering refitting."},
+    {"metric": "intercept", "label": "Joint calibration intercept", "minimum": -0.1, "maximum": 0.1, "reference": 0.0, "follow_up": "Check prevalence and probability scale alongside slope; this is a jointly estimated intercept."},
+    {"metric": "observed_expected_ratio", "label": "Observed / expected defaults", "minimum": 0.8, "maximum": 1.2, "reference": 1.0, "follow_up": "Inspect sampling uncertainty, event counts and cohort composition."},
+    {"metric": "max_feature_psi", "label": "Maximum feature PSI", "maximum": 0.1, "reference": 0.0, "follow_up": "Review feature distributions and bin counts; random holdout PSI does not establish temporal drift."},
+    {"metric": "prediction_psi", "label": "Prediction PSI", "maximum": 0.1, "reference": 0.0, "follow_up": "Inspect score distributions and collect time-separated cohorts for real drift monitoring."},
+    {"metric": "missing_rate", "label": "Source missing-cell rate", "maximum": 0.0, "reference": 0.0, "follow_up": "Investigate data ingestion and schema; the historical audit does not describe a live feed."},
+    {"metric": "max_group_calibration_gap", "label": "Maximum supported-group calibration gap", "maximum": 0.05, "reference": 0.0, "follow_up": "Inspect group uncertainty and denominators; neither gaps nor apparent parity certify legal fairness."}
+  ],
+  "group_min_n": 100,
+  "group_min_events": 20,
+  "provenance": "Previously inspected V1 holdout and within-cohort distribution audits, displayed retrospectively. No model selection or certification."
+}

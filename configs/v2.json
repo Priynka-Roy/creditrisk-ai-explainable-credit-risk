@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "experiment_id": "creditrisk-v2-retrospective-001",
+  "paired_bootstrap": {"replicates": 1000, "seed": 142, "primary": ["boosting", "l2"], "secondary": [["boosting", "l1"], ["boosting", "baseline"]]},
+  "calibration_bootstrap": {"replicates": 1000, "seed": 242, "minimum_events": 20},
+  "subgroup_bootstrap": {"replicates": 1000, "calibration_replicates": 300, "seed": 342},
+  "stability_bootstrap": {"replicates": 100, "seed": 542, "partition": "training resample; original validation evaluation"},
+  "simulation": {"portfolios": 5000, "portfolio_size": 1000, "batch_size": 250, "seed": 442, "alpha": 0.95, "dependence_rho": 0.15, "currency": "NTD"},
+  "boundaries": "Retrospective diagnostics of already inspected V1 test predictions; no model, feature, calibration, threshold or hyperparameter reselection. Conditional fitted-model uncertainty, not fresh independent validation."
+}

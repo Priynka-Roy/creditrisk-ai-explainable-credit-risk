@@ -31,3 +31,7 @@ The cloud platform chooses its own port; `.streamlit/config.toml` must not conta
 Runtime dependencies are pinned in `requirements.txt`; artifact metadata records fitted-library versions. Dependency changes require compatibility testing and potentially regenerated artifacts. Raw data and the local virtual environment are excluded from Git. CI uses deterministic fixtures and supplied lightweight artifacts rather than downloading the source workbook.
 
 For reproduction and verification commands, see the [README](../README.md). Public deployment remains an owner action after review; it is not required for this implementation's initial delivery.
+
+## Version 2 readiness
+
+The entry point and eight sections remain unchanged. Both V1 and V2 aggregate artifacts are shipped and version/integrity checked. Paired inference, calibration uncertainty and development refits are precomputed offline. Interactive simulations are deterministic, cached and bounded; no model fitting, raw download or customer input is added. After reviewing V2, deploy the same repository/entry point on Python 3.12 and verify the resulting public URL before publishing it.
