@@ -19,3 +19,13 @@ The [EBA's PD/LGD modeling guidance](https://www.eba.europa.eu/activities/single
 ## Future improvements
 
 Obtain properly governed, time-stamped lender cohorts and a documented default definition; assess transportability and temporal calibration; validate exposure and recovery data separately; extend repeated development resampling and external validation; analyze dependencies and intersectional subgroup uncertainty before drawing stronger conclusions. Each requires new evidence, not reinterpretation of the existing holdout.
+
+## Version 2 additions and their limits
+
+V1 test outcomes are already known. V2 customer-bootstrap inference is retrospective and conditional on frozen fitted probabilities; it does not make those observations fresh or estimate all training/selection uncertainty. Stratified paired inference fixes event counts, whereas ordinary calibration resampling allows prevalence variation. Interval exclusion of zero is not practical bank superiority. Group intervals are exploratory without multiplicity correction and tiny groups remain weak evidence.
+
+The 100-refit stability extension is development-only logistic training sensitivity evaluated on the original validation observations, not new validation or a selected-boosting refit experiment. Standardization is refitted during resampling, so transformed standardized coefficient magnitudes need that scale interpretation even with fixed categorical references.
+
+Monte Carlo loss variability is conditional on assumed portfolio probabilities, LGD/EAD and latent correlation. It is distinct from fitted-model uncertainty and economic-scenario probability. Assumed common-factor dependence preserves marginal expected loss but can materially alter tails. Finite simulations leave numerical uncertainty; rounded anonymous probability histograms introduce approximation. No correlation is identified by these historical records.
+
+Governance bounds are educational assumptions applied to retrospective point estimates. They are not official policies, externally validated tolerances or production approval criteria. Real monitoring requires governed future outcomes, evidence ownership and institutional review.

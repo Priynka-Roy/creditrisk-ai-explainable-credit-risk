@@ -1,0 +1,4898 @@
+[
+  {
+    "dimension": "Sex (historical source coding)",
+    "group": "1 \u00b7 male",
+    "n": 2402,
+    "events": 561,
+    "observed": 0.23355537052456288,
+    "predicted": 0.22718911553310497,
+    "gap": -0.006366254991457895,
+    "gap_lower": -0.02172332773611063,
+    "gap_upper": 0.008922666362789019,
+    "fpr": 0.05975013579576317,
+    "fnr": 0.64349376114082,
+    "fpr_lower": 0.049812250245491095,
+    "fpr_upper": 0.07152145989553299,
+    "fnr_lower": 0.6030064092618463,
+    "fnr_upper": 0.6820293250770324,
+    "small_group": false,
+    "observed_lower": 0.21706910416686262,
+    "observed_upper": 0.25089251262752255,
+    "gap_interval_method": "Ordinary customer bootstrap; unavailable for sparse groups",
+    "calibration_metrics": {
+      "metrics": [
+        {
+          "metric": "intercept",
+          "estimate": -0.011785350397502373,
+          "lower": -0.1559793377928029,
+          "upper": 0.13054878516772012,
+          "valid_replicates": 300
+        },
+        {
+          "metric": "slope",
+          "estimate": 0.9452511137207659,
+          "lower": 0.8601565105360375,
+          "upper": 1.0269988945195037,
+          "valid_replicates": 300
+        },
+        {
+          "metric": "observed_expected_ratio",
+          "estimate": 1.0280218309601643,
+          "lower": 0.9582548177705201,
+          "upper": 1.1015532889219817,
+          "valid_replicates": 300
+        }
+      ],
+      "n": 2402,
+      "events": 561,
+      "replicates": 300,
+      "seed": 342,
+      "resampling": "Ordinary customer bootstrap; prevalence varies; percentile 95% intervals conditional on fitted predictions",
+      "bands": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "n": 694,
+          "events": 47,
+          "predicted": 0.06641585229852935,
+          "observed": 0.06772334293948126,
+          "ci_lower": 0.05130886807765364,
+          "ci_upper": 0.08889698754181574
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "n": 876,
+          "events": 145,
+          "predicted": 0.1452028182233292,
+          "observed": 0.16552511415525115,
+          "ci_lower": 0.14238455863543514,
+          "ci_upper": 0.19158635836880328
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.30000000000000004,
+          "n": 257,
+          "events": 66,
+          "predicted": 0.24993756931011823,
+          "observed": 0.25680933852140075,
+          "ci_lower": 0.2072529963470362,
+          "ci_upper": 0.3135287054378527
+        },
+        {
+          "lower": 0.30000000000000004,
+          "upper": 0.4,
+          "n": 185,
+          "events": 59,
+          "predicted": 0.34634481931870004,
+          "observed": 0.31891891891891894,
+          "ci_lower": 0.25602849402513306,
+          "ci_upper": 0.3891765344764906
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 80,
+          "events": 44,
+          "predicted": 0.4465942559711481,
+          "observed": 0.55,
+          "ci_lower": 0.44119507889355963,
+          "ci_upper": 0.6542231081528878
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6000000000000001,
+          "n": 70,
+          "events": 36,
+          "predicted": 0.5438038730015172,
+          "observed": 0.5142857142857142,
+          "ci_lower": 0.39954383919009234,
+          "ci_upper": 0.6275412161696143
+        },
+        {
+          "lower": 0.6000000000000001,
+          "upper": 0.7000000000000001,
+          "n": 99,
+          "events": 66,
+          "predicted": 0.6575293028804863,
+          "observed": 0.6666666666666666,
+          "ci_lower": 0.5691204267519376,
+          "ci_upper": 0.7517618358921199
+        },
+        {
+          "lower": 0.7000000000000001,
+          "upper": 0.8,
+          "n": 131,
+          "events": 90,
+          "predicted": 0.7404790977674226,
+          "observed": 0.6870229007633588,
+          "ci_lower": 0.6032467934308663,
+          "ci_upper": 0.7601429268268916
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 10,
+          "events": 8,
+          "predicted": 0.8218263984543924,
+          "observed": 0.8,
+          "ci_lower": 0.49016247153664183,
+          "ci_upper": 0.9433178485456247
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        }
+      ]
+    }
+  },
+  {
+    "dimension": "Sex (historical source coding)",
+    "group": "2 \u00b7 female",
+    "n": 3598,
+    "events": 766,
+    "observed": 0.21289605336297943,
+    "predicted": 0.21655150367643733,
+    "gap": 0.0036554503134578874,
+    "gap_lower": -0.008479912980928893,
+    "gap_upper": 0.015429124043025955,
+    "fpr": 0.05084745762711865,
+    "fnr": 0.6161879895561357,
+    "fpr_lower": 0.04334747144948856,
+    "fpr_upper": 0.05956429673590873,
+    "fnr_lower": 0.5812504323370999,
+    "fnr_upper": 0.6499660057496133,
+    "small_group": false,
+    "observed_lower": 0.19983015973134638,
+    "observed_upper": 0.22657435484258365,
+    "gap_interval_method": "Ordinary customer bootstrap; unavailable for sparse groups",
+    "calibration_metrics": {
+      "metrics": [
+        {
+          "metric": "intercept",
+          "estimate": -0.015221923315370634,
+          "lower": -0.13786665069569726,
+          "upper": 0.11175937916068131,
+          "valid_replicates": 300
+        },
+        {
+          "metric": "slope",
+          "estimate": 1.0115787203296625,
+          "lower": 0.9377898764839744,
+          "upper": 1.089821596100516,
+          "valid_replicates": 300
+        },
+        {
+          "metric": "observed_expected_ratio",
+          "estimate": 0.9831197186286006,
+          "lower": 0.9293050317741045,
+          "upper": 1.0386333577952587,
+          "valid_replicates": 300
+        }
+      ],
+      "n": 3598,
+      "events": 766,
+      "replicates": 300,
+      "seed": 343,
+      "resampling": "Ordinary customer bootstrap; prevalence varies; percentile 95% intervals conditional on fitted predictions",
+      "bands": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "n": 1084,
+          "events": 65,
+          "predicted": 0.06422383592408899,
+          "observed": 0.05996309963099631,
+          "ci_lower": 0.04732320849328291,
+          "ci_upper": 0.07571076648114838
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "n": 1286,
+          "events": 191,
+          "predicted": 0.14293552283317984,
+          "observed": 0.14852255054432348,
+          "ci_lower": 0.13013393303723347,
+          "ci_upper": 0.1690047372094728
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.30000000000000004,
+          "n": 482,
+          "events": 105,
+          "predicted": 0.24433167242819842,
+          "observed": 0.21784232365145229,
+          "ci_lower": 0.183301072274301,
+          "ci_upper": 0.256845512456779
+        },
+        {
+          "lower": 0.30000000000000004,
+          "upper": 0.4,
+          "n": 208,
+          "events": 68,
+          "predicted": 0.3421687754821712,
+          "observed": 0.3269230769230769,
+          "ci_lower": 0.26681558164395436,
+          "ci_upper": 0.3933076048143588
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 100,
+          "events": 43,
+          "predicted": 0.44986404025014154,
+          "observed": 0.43,
+          "ci_lower": 0.33733298524110106,
+          "ci_upper": 0.5278461045078768
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6000000000000001,
+          "n": 107,
+          "events": 58,
+          "predicted": 0.5502711421288662,
+          "observed": 0.5420560747663551,
+          "ci_lower": 0.4478346592618962,
+          "ci_upper": 0.6333623954841904
+        },
+        {
+          "lower": 0.6000000000000001,
+          "upper": 0.7000000000000001,
+          "n": 159,
+          "events": 97,
+          "predicted": 0.6565238449819734,
+          "observed": 0.610062893081761,
+          "ci_lower": 0.5325097164466583,
+          "ci_upper": 0.6824232634803928
+        },
+        {
+          "lower": 0.7000000000000001,
+          "upper": 0.8,
+          "n": 158,
+          "events": 126,
+          "predicted": 0.7408439516754126,
+          "observed": 0.7974683544303798,
+          "ci_lower": 0.728089882643225,
+          "ci_upper": 0.8527254454251137
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 14,
+          "events": 13,
+          "predicted": 0.8195404544503352,
+          "observed": 0.9285714285714286,
+          "ci_lower": 0.6853129557584889,
+          "ci_upper": 0.9872777847521093
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        }
+      ]
+    }
+  },
+  {
+    "dimension": "Education",
+    "group": "0 \u00b7 undocumented",
+    "n": 2,
+    "events": 0,
+    "observed": 0.0,
+    "predicted": 0.1379827465433947,
+    "gap": 0.1379827465433947,
+    "gap_lower": null,
+    "gap_upper": null,
+    "fpr": 0.0,
+    "fnr": null,
+    "fpr_lower": 0.0,
+    "fpr_upper": 0.6576197724933469,
+    "fnr_lower": null,
+    "fnr_upper": null,
+    "small_group": true,
+    "observed_lower": 0.0,
+    "observed_upper": 0.6576197724933469,
+    "gap_interval_method": "Ordinary customer bootstrap; unavailable for sparse groups",
+    "calibration_metrics": {
+      "metrics": [
+        {
+          "metric": "intercept",
+          "estimate": null,
+          "lower": null,
+          "upper": null,
+          "valid_replicates": 0
+        },
+        {
+          "metric": "slope",
+          "estimate": null,
+          "lower": null,
+          "upper": null,
+          "valid_replicates": 0
+        },
+        {
+          "metric": "observed_expected_ratio",
+          "estimate": 0.0,
+          "lower": 0.0,
+          "upper": 4.765956534185451,
+          "valid_replicates": 0,
+          "method": "Wilson event-rate interval divided by fixed mean prediction; conditional approximation"
+        }
+      ],
+      "reason": "Insufficient events/non-events or prediction variation for calibration regression uncertainty",
+      "n": 2,
+      "events": 0,
+      "replicates": 300,
+      "bands": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "n": 2,
+          "events": 0,
+          "predicted": 0.1379827465433947,
+          "observed": 0.0,
+          "ci_lower": 0.0,
+          "ci_upper": 0.6576197724933469
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.30000000000000004,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        },
+        {
+          "lower": 0.30000000000000004,
+          "upper": 0.4,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6000000000000001,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        },
+        {
+          "lower": 0.6000000000000001,
+          "upper": 0.7000000000000001,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        },
+        {
+          "lower": 0.7000000000000001,
+          "upper": 0.8,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        }
+      ]
+    }
+  },
+  {
+    "dimension": "Education",
+    "group": "1 \u00b7 graduate school",
+    "n": 2130,
+    "events": 405,
+    "observed": 0.19014084507042253,
+    "predicted": 0.18968837902381616,
+    "gap": -0.0004524660466063659,
+    "gap_lower": -0.015234322470248961,
+    "gap_upper": 0.013432513553775068,
+    "fpr": 0.035942028985507246,
+    "fnr": 0.6938271604938272,
+    "fpr_lower": 0.028138260022965947,
+    "fpr_upper": 0.04580805712973553,
+    "fnr_lower": 0.6472923161301972,
+    "fnr_upper": 0.7367196195792279,
+    "small_group": false,
+    "observed_lower": 0.17403951128574,
+    "observed_upper": 0.20735782985996917,
+    "gap_interval_method": "Ordinary customer bootstrap; unavailable for sparse groups",
+    "calibration_metrics": {
+      "metrics": [
+        {
+          "metric": "intercept",
+          "estimate": 0.07649011004822058,
+          "lower": -0.13585250200352986,
+          "upper": 0.29777472974656055,
+          "valid_replicates": 300
+        },
+        {
+          "metric": "slope",
+          "estimate": 1.0585053513750933,
+          "lower": 0.936755020555427,
+          "upper": 1.168910791268965,
+          "valid_replicates": 300
+        },
+        {
+          "metric": "observed_expected_ratio",
+          "estimate": 1.002385312421008,
+          "lower": 0.9299676554576424,
+          "upper": 1.0758084797885317,
+          "valid_replicates": 300
+        }
+      ],
+      "n": 2130,
+      "events": 405,
+      "replicates": 300,
+      "seed": 345,
+      "resampling": "Ordinary customer bootstrap; prevalence varies; percentile 95% intervals conditional on fitted predictions",
+      "bands": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "n": 808,
+          "events": 42,
+          "predicted": 0.06229053271979193,
+          "observed": 0.05198019801980198,
+          "ci_lower": 0.03868363971533149,
+          "ci_upper": 0.06951662262196688
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "n": 697,
+          "events": 101,
+          "predicted": 0.14173618498663665,
+          "observed": 0.1449067431850789,
+          "ci_lower": 0.12071961453431222,
+          "ci_upper": 0.17298655285918574
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.30000000000000004,
+          "n": 269,
+          "events": 68,
+          "predicted": 0.24638503790493665,
+          "observed": 0.2527881040892193,
+          "ci_lower": 0.20458186382677965,
+          "ci_upper": 0.3079555614792296
+        },
+        {
+          "lower": 0.30000000000000004,
+          "upper": 0.4,
+          "n": 129,
+          "events": 47,
+          "predicted": 0.34373610855162434,
+          "observed": 0.3643410852713178,
+          "ci_lower": 0.28633347709928453,
+          "ci_upper": 0.4501945593231243
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 41,
+          "events": 23,
+          "predicted": 0.4436839097417441,
+          "observed": 0.5609756097560976,
+          "ci_lower": 0.4104052722210608,
+          "ci_upper": 0.7010986826344964
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6000000000000001,
+          "n": 35,
+          "events": 13,
+          "predicted": 0.5455051565387029,
+          "observed": 0.37142857142857144,
+          "ci_lower": 0.2316581950336571,
+          "ci_upper": 0.5366306315640468
+        },
+        {
+          "lower": 0.6000000000000001,
+          "upper": 0.7000000000000001,
+          "n": 62,
+          "events": 42,
+          "predicted": 0.6569042301128393,
+          "observed": 0.6774193548387096,
+          "ci_lower": 0.553680880928481,
+          "ci_upper": 0.780455093487161
+        },
+        {
+          "lower": 0.7000000000000001,
+          "upper": 0.8,
+          "n": 82,
+          "events": 63,
+          "predicted": 0.7382973276595606,
+          "observed": 0.7682926829268293,
+          "ci_lower": 0.666227474562528,
+          "ci_upper": 0.8463453615061988
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 7,
+          "events": 6,
+          "predicted": 0.8205255477881751,
+          "observed": 0.8571428571428571,
+          "ci_lower": 0.4868721707256811,
+          "ci_upper": 0.9743203756552565
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        }
+      ]
+    }
+  },
+  {
+    "dimension": "Education",
+    "group": "2 \u00b7 university",
+    "n": 2774,
+    "events": 656,
+    "observed": 0.23648161499639508,
+    "predicted": 0.2396130365098151,
+    "gap": 0.0031314215134200223,
+    "gap_lower": -0.010628063584719722,
+    "gap_upper": 0.01703703207738191,
+    "fpr": 0.062795089707271,
+    "fnr": 0.5777439024390244,
+    "fpr_lower": 0.053234129950911264,
+    "fpr_upper": 0.07393911275246688,
+    "fnr_lower": 0.539602237702851,
+    "fnr_upper": 0.6149803497300456,
+    "small_group": false,
+    "observed_lower": 0.2210401679903389,
+    "observed_upper": 0.25265189771139557,
+    "gap_interval_method": "Ordinary customer bootstrap; unavailable for sparse groups",
+    "calibration_metrics": {
+      "metrics": [
+        {
+          "metric": "intercept",
+          "estimate": -0.016822229047401008,
+          "lower": -0.13458713944812772,
+          "upper": 0.12045286832291184,
+          "valid_replicates": 300
+        },
+        {
+          "metric": "slope",
+          "estimate": 1.0058236355906982,
+          "lower": 0.9257139735088358,
+          "upper": 1.1036021804269822,
+          "valid_replicates": 300
+        },
+        {
+          "metric": "observed_expected_ratio",
+          "estimate": 0.9869313391331621,
+          "lower": 0.9330337909890242,
+          "upper": 1.0429681730804277,
+          "valid_replicates": 300
+        }
+      ],
+      "n": 2774,
+      "events": 656,
+      "replicates": 300,
+      "seed": 346,
+      "resampling": "Ordinary customer bootstrap; prevalence varies; percentile 95% intervals conditional on fitted predictions",
+      "bands": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "n": 703,
+          "events": 46,
+          "predicted": 0.06790985213562357,
+          "observed": 0.06543385490753911,
+          "ci_lower": 0.04941295883020684,
+          "ci_upper": 0.08617820892698382
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "n": 1033,
+          "events": 160,
+          "predicted": 0.1456968664120096,
+          "observed": 0.15488867376573087,
+          "ci_lower": 0.13410811171940817,
+          "ci_upper": 0.17822648492088455
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.30000000000000004,
+          "n": 331,
+          "events": 70,
+          "predicted": 0.24616298257104785,
+          "observed": 0.21148036253776434,
+          "ci_lower": 0.17092623661440862,
+          "ci_upper": 0.2586545546272174
+        },
+        {
+          "lower": 0.30000000000000004,
+          "upper": 0.4,
+          "n": 198,
+          "events": 60,
+          "predicted": 0.3464006108543306,
+          "observed": 0.30303030303030304,
+          "ci_lower": 0.24326778246344963,
+          "ci_upper": 0.3702903019076542
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 99,
+          "events": 43,
+          "predicted": 0.4498371924062308,
+          "observed": 0.43434343434343436,
+          "ci_lower": 0.34096640246382526,
+          "ci_upper": 0.5326254334642734
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6000000000000001,
+          "n": 109,
+          "events": 63,
+          "predicted": 0.5453044695738231,
+          "observed": 0.5779816513761468,
+          "ci_lower": 0.48416349392318087,
+          "ci_upper": 0.6664903542073464
+        },
+        {
+          "lower": 0.6000000000000001,
+          "upper": 0.7000000000000001,
+          "n": 138,
+          "events": 90,
+          "predicted": 0.6581216006942993,
+          "observed": 0.6521739130434783,
+          "ci_lower": 0.5695636217454384,
+          "ci_upper": 0.7265416238519958
+        },
+        {
+          "lower": 0.7000000000000001,
+          "upper": 0.8,
+          "n": 153,
+          "events": 115,
+          "predicted": 0.7406546784513984,
+          "observed": 0.7516339869281046,
+          "ci_lower": 0.6775717973720176,
+          "ci_upper": 0.8133698234147969
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 10,
+          "events": 9,
+          "predicted": 0.8260790112462688,
+          "observed": 0.9,
+          "ci_lower": 0.5958499732047615,
+          "ci_upper": 0.9821237869049271
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        }
+      ]
+    }
+  },
+  {
+    "dimension": "Education",
+    "group": "3 \u00b7 high school",
+    "n": 1014,
+    "events": 261,
+    "observed": 0.257396449704142,
+    "predicted": 0.24287440902467622,
+    "gap": -0.014522040679465784,
+    "gap_lower": -0.04034190400456715,
+    "gap_upper": 0.008996747338736318,
+    "fpr": 0.07569721115537849,
+    "fnr": 0.6475095785440613,
+    "fpr_lower": 0.05888331143062943,
+    "fpr_upper": 0.09681833182278589,
+    "fnr_lower": 0.5877926055448541,
+    "fnr_upper": 0.7029473727911337,
+    "small_group": false,
+    "observed_lower": 0.2314375887836935,
+    "observed_upper": 0.28518654188391757,
+    "gap_interval_method": "Ordinary customer bootstrap; unavailable for sparse groups",
+    "calibration_metrics": {
+      "metrics": [
+        {
+          "metric": "intercept",
+          "estimate": -0.08969013287415586,
+          "lower": -0.31595838916441776,
+          "upper": 0.1119692903160265,
+          "valid_replicates": 300
+        },
+        {
+          "metric": "slope",
+          "estimate": 0.8168084607667832,
+          "lower": 0.6945146126350314,
+          "upper": 0.9617888482181871,
+          "valid_replicates": 300
+        },
+        {
+          "metric": "observed_expected_ratio",
+          "estimate": 1.0597923870933241,
+          "lower": 0.9516318747879743,
+          "upper": 1.162994406313168,
+          "valid_replicates": 300
+        }
+      ],
+      "n": 1014,
+      "events": 261,
+      "replicates": 300,
+      "seed": 347,
+      "resampling": "Ordinary customer bootstrap; prevalence varies; percentile 95% intervals conditional on fitted predictions",
+      "bands": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "n": 216,
+          "events": 22,
+          "predicted": 0.06799199709404491,
+          "observed": 0.10185185185185185,
+          "ci_lower": 0.06822737600440479,
+          "ci_upper": 0.14939062506478532
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "n": 410,
+          "events": 73,
+          "predicted": 0.14289853497562144,
+          "observed": 0.17804878048780487,
+          "ci_lower": 0.14405900601561758,
+          "ci_upper": 0.21801554119792346
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.30000000000000004,
+          "n": 135,
+          "events": 33,
+          "predicted": 0.24638227673001933,
+          "observed": 0.24444444444444444,
+          "ci_lower": 0.17968181945205527,
+          "ci_upper": 0.3233484671346797
+        },
+        {
+          "lower": 0.30000000000000004,
+          "upper": 0.4,
+          "n": 66,
+          "events": 20,
+          "predicted": 0.33811542305960784,
+          "observed": 0.30303030303030304,
+          "ci_lower": 0.2055402105801948,
+          "ci_upper": 0.4221880694554426
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 38,
+          "events": 21,
+          "predicted": 0.44759149753609956,
+          "observed": 0.5526315789473685,
+          "ci_lower": 0.3970629712199248,
+          "ci_upper": 0.6985359900194876
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6000000000000001,
+          "n": 33,
+          "events": 18,
+          "predicted": 0.5580125956210173,
+          "observed": 0.5454545454545454,
+          "ci_lower": 0.37985938536217456,
+          "ci_upper": 0.7015706148612388
+        },
+        {
+          "lower": 0.6000000000000001,
+          "upper": 0.7000000000000001,
+          "n": 55,
+          "events": 30,
+          "predicted": 0.6566716599160507,
+          "observed": 0.5454545454545454,
+          "ci_lower": 0.41522690241861226,
+          "ci_upper": 0.6697471974798342
+        },
+        {
+          "lower": 0.7000000000000001,
+          "upper": 0.8,
+          "n": 54,
+          "events": 38,
+          "predicted": 0.7443622129833264,
+          "observed": 0.7037037037037037,
+          "ci_lower": 0.5717242709884697,
+          "ci_upper": 0.8086257486782021
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 7,
+          "events": 6,
+          "predicted": 0.8124801999812435,
+          "observed": 0.8571428571428571,
+          "ci_lower": 0.4868721707256811,
+          "ci_upper": 0.9743203756552565
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        }
+      ]
+    }
+  },
+  {
+    "dimension": "Education",
+    "group": "4 \u00b7 others",
+    "n": 26,
+    "events": 1,
+    "observed": 0.038461538461538464,
+    "predicted": 0.15924784749400425,
+    "gap": 0.12078630903246575,
+    "gap_lower": null,
+    "gap_upper": null,
+    "fpr": 0.04,
+    "fnr": 0.0,
+    "fpr_lower": 0.007096233501987265,
+    "fpr_upper": 0.19544063736193734,
+    "fnr_lower": 0.0,
+    "fnr_upper": 0.7934506856227626,
+    "small_group": true,
+    "observed_lower": 0.006821984993543487,
+    "observed_upper": 0.18892778903034757,
+    "gap_interval_method": "Ordinary customer bootstrap; unavailable for sparse groups",
+    "calibration_metrics": {
+      "metrics": [
+        {
+          "metric": "intercept",
+          "estimate": -193.0159192285522,
+          "lower": null,
+          "upper": null,
+          "valid_replicates": 0
+        },
+        {
+          "metric": "slope",
+          "estimate": 446.5263281052297,
+          "lower": null,
+          "upper": null,
+          "valid_replicates": 0
+        },
+        {
+          "metric": "observed_expected_ratio",
+          "estimate": 0.24151998954325934,
+          "lower": 0.04283878935192727,
+          "upper": 1.1863757784070568,
+          "valid_replicates": 0,
+          "method": "Wilson event-rate interval divided by fixed mean prediction; conditional approximation"
+        }
+      ],
+      "reason": "Insufficient events/non-events or prediction variation for calibration regression uncertainty",
+      "n": 26,
+      "events": 1,
+      "replicates": 300,
+      "bands": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "n": 10,
+          "events": 0,
+          "predicted": 0.06263544439427857,
+          "observed": 0.0,
+          "ci_lower": 0.0,
+          "ci_upper": 0.2775327998628892
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "n": 12,
+          "events": 0,
+          "predicted": 0.150062757695498,
+          "observed": 0.0,
+          "ci_lower": 2.7755575615628914e-17,
+          "ci_upper": 0.24249400665524085
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.30000000000000004,
+          "n": 2,
+          "events": 0,
+          "predicted": 0.25008632600024727,
+          "observed": 0.0,
+          "ci_lower": 0.0,
+          "ci_upper": 0.6576197724933469
+        },
+        {
+          "lower": 0.30000000000000004,
+          "upper": 0.4,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6000000000000001,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        },
+        {
+          "lower": 0.6000000000000001,
+          "upper": 0.7000000000000001,
+          "n": 2,
+          "events": 1,
+          "predicted": 0.6065819232774267,
+          "observed": 0.5,
+          "ci_lower": 0.09453120573423074,
+          "ci_upper": 0.9054687942657693
+        },
+        {
+          "lower": 0.7000000000000001,
+          "upper": 0.8,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        }
+      ]
+    }
+  },
+  {
+    "dimension": "Education",
+    "group": "5 \u00b7 undocumented",
+    "n": 45,
+    "events": 3,
+    "observed": 0.06666666666666667,
+    "predicted": 0.08047971842035338,
+    "gap": 0.013813051753686715,
+    "gap_lower": null,
+    "gap_upper": null,
+    "fpr": 0.0,
+    "fnr": 1.0,
+    "fpr_lower": -6.938893903907228e-18,
+    "fpr_upper": 0.08379879086570391,
+    "fnr_lower": 0.4385029682449546,
+    "fnr_upper": 1.0,
+    "small_group": true,
+    "observed_lower": 0.022932032599250987,
+    "observed_upper": 0.17856601963591895,
+    "gap_interval_method": "Ordinary customer bootstrap; unavailable for sparse groups",
+    "calibration_metrics": {
+      "metrics": [
+        {
+          "metric": "intercept",
+          "estimate": -3.0594720893695064,
+          "lower": null,
+          "upper": null,
+          "valid_replicates": 0
+        },
+        {
+          "metric": "slope",
+          "estimate": -0.15316407874523802,
+          "lower": null,
+          "upper": null,
+          "valid_replicates": 0
+        },
+        {
+          "metric": "observed_expected_ratio",
+          "estimate": 0.8283660526551571,
+          "lower": 0.2849417598540138,
+          "upper": 2.2187704323622417,
+          "valid_replicates": 0,
+          "method": "Wilson event-rate interval divided by fixed mean prediction; conditional approximation"
+        }
+      ],
+      "reason": "Insufficient events/non-events or prediction variation for calibration regression uncertainty",
+      "n": 45,
+      "events": 3,
+      "replicates": 300,
+      "bands": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "n": 39,
+          "events": 2,
+          "predicted": 0.05502281314625389,
+          "observed": 0.05128205128205128,
+          "ci_lower": 0.014177955415274113,
+          "ci_upper": 0.16885640047613612
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "n": 4,
+          "events": 1,
+          "predicted": 0.12378809187653703,
+          "observed": 0.25,
+          "ci_lower": 0.04558726080970055,
+          "ci_upper": 0.6993581574175981
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.30000000000000004,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        },
+        {
+          "lower": 0.30000000000000004,
+          "upper": 0.4,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 2,
+          "events": 0,
+          "predicted": 0.49027262435292673,
+          "observed": 0.0,
+          "ci_lower": 0.0,
+          "ci_upper": 0.6576197724933469
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6000000000000001,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        },
+        {
+          "lower": 0.6000000000000001,
+          "upper": 0.7000000000000001,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        },
+        {
+          "lower": 0.7000000000000001,
+          "upper": 0.8,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        }
+      ]
+    }
+  },
+  {
+    "dimension": "Education",
+    "group": "6 \u00b7 undocumented",
+    "n": 9,
+    "events": 1,
+    "observed": 0.1111111111111111,
+    "predicted": 0.20278972572394857,
+    "gap": 0.09167861461283747,
+    "gap_lower": null,
+    "gap_upper": null,
+    "fpr": 0.125,
+    "fnr": 1.0,
+    "fpr_lower": 0.02241749145005667,
+    "fpr_upper": 0.4708881822128535,
+    "fnr_lower": 0.20654931437723745,
+    "fnr_upper": 1.0,
+    "small_group": true,
+    "observed_lower": 0.019890887638544907,
+    "observed_upper": 0.434999705576656,
+    "gap_interval_method": "Ordinary customer bootstrap; unavailable for sparse groups",
+    "calibration_metrics": {
+      "metrics": [
+        {
+          "metric": "intercept",
+          "estimate": -3.4149355302828988,
+          "lower": null,
+          "upper": null,
+          "valid_replicates": 0
+        },
+        {
+          "metric": "slope",
+          "estimate": -0.7895259952423387,
+          "lower": null,
+          "upper": null,
+          "valid_replicates": 0
+        },
+        {
+          "metric": "observed_expected_ratio",
+          "estimate": 0.5479129216948755,
+          "lower": 0.0980862692502566,
+          "upper": 2.145077636570246,
+          "valid_replicates": 0,
+          "method": "Wilson event-rate interval divided by fixed mean prediction; conditional approximation"
+        }
+      ],
+      "reason": "Insufficient events/non-events or prediction variation for calibration regression uncertainty",
+      "n": 9,
+      "events": 1,
+      "replicates": 300,
+      "bands": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "n": 2,
+          "events": 0,
+          "predicted": 0.09067380949809713,
+          "observed": 0.0,
+          "ci_lower": 0.0,
+          "ci_upper": 0.6576197724933469
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "n": 4,
+          "events": 1,
+          "predicted": 0.13937422371758237,
+          "observed": 0.25,
+          "ci_lower": 0.04558726080970055,
+          "ci_upper": 0.6993581574175981
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.30000000000000004,
+          "n": 2,
+          "events": 0,
+          "predicted": 0.24125949254705453,
+          "observed": 0.0,
+          "ci_lower": 0.0,
+          "ci_upper": 0.6576197724933469
+        },
+        {
+          "lower": 0.30000000000000004,
+          "upper": 0.4,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6000000000000001,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        },
+        {
+          "lower": 0.6000000000000001,
+          "upper": 0.7000000000000001,
+          "n": 1,
+          "events": 0,
+          "predicted": 0.6037440325549043,
+          "observed": 0.0,
+          "ci_lower": 0.0,
+          "ci_upper": 0.7934506856227626
+        },
+        {
+          "lower": 0.7000000000000001,
+          "upper": 0.8,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        }
+      ]
+    }
+  },
+  {
+    "dimension": "Marital status",
+    "group": "0 \u00b7 undocumented",
+    "n": 7,
+    "events": 0,
+    "observed": 0.0,
+    "predicted": 0.22319253618262266,
+    "gap": 0.22319253618262266,
+    "gap_lower": null,
+    "gap_upper": null,
+    "fpr": 0.14285714285714285,
+    "fnr": null,
+    "fpr_lower": 0.02567962434474355,
+    "fpr_upper": 0.5131278292743189,
+    "fnr_lower": null,
+    "fnr_upper": null,
+    "small_group": true,
+    "observed_lower": 5.551115123125783e-17,
+    "observed_upper": 0.35433043506668743,
+    "gap_interval_method": "Ordinary customer bootstrap; unavailable for sparse groups",
+    "calibration_metrics": {
+      "metrics": [
+        {
+          "metric": "intercept",
+          "estimate": null,
+          "lower": null,
+          "upper": null,
+          "valid_replicates": 0
+        },
+        {
+          "metric": "slope",
+          "estimate": null,
+          "lower": null,
+          "upper": null,
+          "valid_replicates": 0
+        },
+        {
+          "metric": "observed_expected_ratio",
+          "estimate": 0.0,
+          "lower": 2.487141917050352e-16,
+          "upper": 1.58755503713065,
+          "valid_replicates": 0,
+          "method": "Wilson event-rate interval divided by fixed mean prediction; conditional approximation"
+        }
+      ],
+      "reason": "Insufficient events/non-events or prediction variation for calibration regression uncertainty",
+      "n": 7,
+      "events": 0,
+      "replicates": 300,
+      "bands": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "n": 2,
+          "events": 0,
+          "predicted": 0.07740811644372794,
+          "observed": 0.0,
+          "ci_lower": 0.0,
+          "ci_upper": 0.6576197724933469
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "n": 1,
+          "events": 0,
+          "predicted": 0.15212067385228115,
+          "observed": 0.0,
+          "ci_lower": 0.0,
+          "ci_upper": 0.7934506856227626
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.30000000000000004,
+          "n": 3,
+          "events": 0,
+          "predicted": 0.22445045087888726,
+          "observed": 0.0,
+          "ci_lower": 5.551115123125783e-17,
+          "ci_upper": 0.5614970317550454
+        },
+        {
+          "lower": 0.30000000000000004,
+          "upper": 0.4,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6000000000000001,
+          "n": 1,
+          "events": 0,
+          "predicted": 0.58205949390196,
+          "observed": 0.0,
+          "ci_lower": 0.0,
+          "ci_upper": 0.7934506856227626
+        },
+        {
+          "lower": 0.6000000000000001,
+          "upper": 0.7000000000000001,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        },
+        {
+          "lower": 0.7000000000000001,
+          "upper": 0.8,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        }
+      ]
+    }
+  },
+  {
+    "dimension": "Marital status",
+    "group": "1 \u00b7 married",
+    "n": 2767,
+    "events": 668,
+    "observed": 0.24141669678352007,
+    "predicted": 0.22457197165488668,
+    "gap": -0.016844725128633376,
+    "gap_lower": -0.031191756835484544,
+    "gap_upper": -0.0036429713770550504,
+    "fpr": 0.0505002382086708,
+    "fnr": 0.6377245508982036,
+    "fpr_lower": 0.041926223559244705,
+    "fpr_upper": 0.06071654007627032,
+    "fnr_lower": 0.6005830333949719,
+    "fnr_upper": 0.6732911039989623,
+    "small_group": false,
+    "observed_lower": 0.22583706079411947,
+    "observed_upper": 0.2577133258782916,
+    "gap_interval_method": "Ordinary customer bootstrap; unavailable for sparse groups",
+    "calibration_metrics": {
+      "metrics": [
+        {
+          "metric": "intercept",
+          "estimate": 0.13637333155933518,
+          "lower": -0.012438352023673296,
+          "upper": 0.28238549004335733,
+          "valid_replicates": 300
+        },
+        {
+          "metric": "slope",
+          "estimate": 1.0134700970990282,
+          "lower": 0.9227333166392349,
+          "upper": 1.1031752424147645,
+          "valid_replicates": 300
+        },
+        {
+          "metric": "observed_expected_ratio",
+          "estimate": 1.0750081366098512,
+          "lower": 1.0113023866596724,
+          "upper": 1.135850962164496,
+          "valid_replicates": 300
+        }
+      ],
+      "n": 2767,
+      "events": 668,
+      "replicates": 300,
+      "seed": 352,
+      "resampling": "Ordinary customer bootstrap; prevalence varies; percentile 95% intervals conditional on fitted predictions",
+      "bands": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "n": 803,
+          "events": 56,
+          "predicted": 0.06602615807606743,
+          "observed": 0.06973848069738481,
+          "ci_lower": 0.05409312170499759,
+          "ci_upper": 0.08948088227592302
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "n": 1002,
+          "events": 172,
+          "predicted": 0.14452486883774368,
+          "observed": 0.17165668662674652,
+          "ci_lower": 0.14957358589525216,
+          "ci_upper": 0.19624777170569951
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.30000000000000004,
+          "n": 327,
+          "events": 85,
+          "predicted": 0.24732318235006903,
+          "observed": 0.2599388379204893,
+          "ci_lower": 0.2153826023380313,
+          "ci_upper": 0.31006985891142425
+        },
+        {
+          "lower": 0.30000000000000004,
+          "upper": 0.4,
+          "n": 196,
+          "events": 68,
+          "predicted": 0.3458513855949291,
+          "observed": 0.3469387755102041,
+          "ci_lower": 0.2838208059207068,
+          "ci_upper": 0.4159411936459876
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 91,
+          "events": 45,
+          "predicted": 0.45141900765168264,
+          "observed": 0.4945054945054945,
+          "ci_lower": 0.39410584110376173,
+          "ci_upper": 0.5953502468515007
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6000000000000001,
+          "n": 81,
+          "events": 41,
+          "predicted": 0.5529334943856851,
+          "observed": 0.5061728395061729,
+          "ci_lower": 0.3995078470731793,
+          "ci_upper": 0.6122788432301242
+        },
+        {
+          "lower": 0.6000000000000001,
+          "upper": 0.7000000000000001,
+          "n": 122,
+          "events": 82,
+          "predicted": 0.6592905332904986,
+          "observed": 0.6721311475409836,
+          "ci_lower": 0.5846897187166324,
+          "ci_upper": 0.7490635641330516
+        },
+        {
+          "lower": 0.7000000000000001,
+          "upper": 0.8,
+          "n": 133,
+          "events": 108,
+          "predicted": 0.7422551625870982,
+          "observed": 0.8120300751879699,
+          "ci_lower": 0.737228174792749,
+          "ci_upper": 0.8693131520485294
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 12,
+          "events": 11,
+          "predicted": 0.8230037855352456,
+          "observed": 0.9166666666666666,
+          "ci_lower": 0.646120088858883,
+          "ci_upper": 0.9851349055950829
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        }
+      ]
+    }
+  },
+  {
+    "dimension": "Marital status",
+    "group": "2 \u00b7 single",
+    "n": 3158,
+    "events": 647,
+    "observed": 0.20487650411652944,
+    "predicted": 0.21743756867443054,
+    "gap": 0.012561064557901081,
+    "gap_lower": 0.00034291565170651537,
+    "gap_upper": 0.02465046575098892,
+    "fpr": 0.056551174830744726,
+    "fnr": 0.616692426584235,
+    "fpr_lower": 0.04817556268564,
+    "fpr_upper": 0.06628153671166118,
+    "fnr_lower": 0.5786449253803356,
+    "fnr_upper": 0.653362421345252,
+    "small_group": false,
+    "observed_lower": 0.1911622005524652,
+    "observed_upper": 0.21930792444386016,
+    "gap_interval_method": "Ordinary customer bootstrap; unavailable for sparse groups",
+    "calibration_metrics": {
+      "metrics": [
+        {
+          "metric": "intercept",
+          "estimate": -0.1285963271751226,
+          "lower": -0.2467940378625123,
+          "upper": -0.00022426493111968055,
+          "valid_replicates": 300
+        },
+        {
+          "metric": "slope",
+          "estimate": 0.9695678360979411,
+          "lower": 0.8905399751486688,
+          "upper": 1.066714437688954,
+          "valid_replicates": 300
+        },
+        {
+          "metric": "observed_expected_ratio",
+          "estimate": 0.942231397111008,
+          "lower": 0.8848196535187078,
+          "upper": 0.9986956986072697,
+          "valid_replicates": 300
+        }
+      ],
+      "n": 3158,
+      "events": 647,
+      "replicates": 300,
+      "seed": 353,
+      "resampling": "Ordinary customer bootstrap; prevalence varies; percentile 95% intervals conditional on fitted predictions",
+      "bands": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "n": 957,
+          "events": 55,
+          "predicted": 0.0641229000914276,
+          "observed": 0.05747126436781609,
+          "ci_lower": 0.04441835672529509,
+          "ci_upper": 0.07406264529185294
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "n": 1132,
+          "events": 160,
+          "predicted": 0.14328764867985183,
+          "observed": 0.1413427561837456,
+          "ci_lower": 0.12225963284757141,
+          "ci_upper": 0.1628518642771486
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.30000000000000004,
+          "n": 397,
+          "events": 83,
+          "predicted": 0.24551458840261584,
+          "observed": 0.20906801007556675,
+          "ci_lower": 0.17195019501176712,
+          "ci_upper": 0.2517621108968595
+        },
+        {
+          "lower": 0.30000000000000004,
+          "upper": 0.4,
+          "n": 193,
+          "events": 59,
+          "predicted": 0.34220053827948194,
+          "observed": 0.30569948186528495,
+          "ci_lower": 0.24502050748449747,
+          "ci_upper": 0.37396219844881584
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 89,
+          "events": 42,
+          "predicted": 0.44533499782475144,
+          "observed": 0.47191011235955055,
+          "ci_lower": 0.37152022402743146,
+          "ci_upper": 0.5746245257049423
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6000000000000001,
+          "n": 91,
+          "events": 51,
+          "predicted": 0.5428709591103892,
+          "observed": 0.5604395604395604,
+          "ci_lower": 0.45807137219291083,
+          "ci_upper": 0.6579116602992026
+        },
+        {
+          "lower": 0.6000000000000001,
+          "upper": 0.7000000000000001,
+          "n": 134,
+          "events": 80,
+          "predicted": 0.6548103054513378,
+          "observed": 0.5970149253731343,
+          "ci_lower": 0.512383343274767,
+          "ci_upper": 0.6762391526161181
+        },
+        {
+          "lower": 0.7000000000000001,
+          "upper": 0.8,
+          "n": 154,
+          "events": 107,
+          "predicted": 0.7390058826877656,
+          "observed": 0.6948051948051948,
+          "ci_lower": 0.6180692927455592,
+          "ci_upper": 0.7620589729730137
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 11,
+          "events": 10,
+          "predicted": 0.8180957951946524,
+          "observed": 0.9090909090909091,
+          "ci_lower": 0.6226415635484043,
+          "ci_upper": 0.9837678271141151
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        }
+      ]
+    }
+  },
+  {
+    "dimension": "Marital status",
+    "group": "3 \u00b7 others",
+    "n": 68,
+    "events": 12,
+    "observed": 0.17647058823529413,
+    "predicted": 0.2241136844432088,
+    "gap": 0.0476430962079147,
+    "gap_lower": null,
+    "gap_upper": null,
+    "fpr": 0.08928571428571429,
+    "fnr": 0.6666666666666666,
+    "fpr_lower": 0.03874214844958693,
+    "fpr_upper": 0.19256001385511162,
+    "fnr_lower": 0.39062208887279953,
+    "fnr_upper": 0.8618799089087867,
+    "small_group": true,
+    "observed_lower": 0.10393587249437691,
+    "observed_upper": 0.2836044040774335,
+    "gap_interval_method": "Ordinary customer bootstrap; unavailable for sparse groups",
+    "calibration_metrics": {
+      "metrics": [
+        {
+          "metric": "intercept",
+          "estimate": -0.8353495379023415,
+          "lower": null,
+          "upper": null,
+          "valid_replicates": 0
+        },
+        {
+          "metric": "slope",
+          "estimate": 0.5486218628933075,
+          "lower": null,
+          "upper": null,
+          "valid_replicates": 0
+        },
+        {
+          "metric": "observed_expected_ratio",
+          "estimate": 0.787415497066679,
+          "lower": 0.4637640613182397,
+          "upper": 1.265448849239279,
+          "valid_replicates": 0,
+          "method": "Wilson event-rate interval divided by fixed mean prediction; conditional approximation"
+        }
+      ],
+      "reason": "Insufficient events/non-events or prediction variation for calibration regression uncertainty",
+      "n": 68,
+      "events": 12,
+      "replicates": 300,
+      "bands": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "n": 16,
+          "events": 1,
+          "predicted": 0.07323769258912673,
+          "observed": 0.0625,
+          "ci_lower": 0.01111934476464252,
+          "ci_upper": 0.28328737570298945
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "n": 27,
+          "events": 4,
+          "predicted": 0.1424108730459996,
+          "observed": 0.14814814814814814,
+          "ci_lower": 0.05915927776244326,
+          "ci_upper": 0.3247868542781298
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.30000000000000004,
+          "n": 12,
+          "events": 3,
+          "predicted": 0.24870815384535758,
+          "observed": 0.25,
+          "ci_lower": 0.08894166839405471,
+          "ci_upper": 0.5323053349335657
+        },
+        {
+          "lower": 0.30000000000000004,
+          "upper": 0.4,
+          "n": 4,
+          "events": 0,
+          "predicted": 0.3533303524262521,
+          "observed": 0.0,
+          "ci_lower": 0.0,
+          "ci_upper": 0.4898908364545973
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6000000000000001,
+          "n": 4,
+          "events": 2,
+          "predicted": 0.543588374926753,
+          "observed": 0.5,
+          "ci_lower": 0.15003898915214947,
+          "ci_upper": 0.8499610108478506
+        },
+        {
+          "lower": 0.6000000000000001,
+          "upper": 0.7000000000000001,
+          "n": 2,
+          "events": 1,
+          "predicted": 0.6523331726908962,
+          "observed": 0.5,
+          "ci_lower": 0.09453120573423074,
+          "ci_upper": 0.9054687942657693
+        },
+        {
+          "lower": 0.7000000000000001,
+          "upper": 0.8,
+          "n": 2,
+          "events": 1,
+          "predicted": 0.7646318071237922,
+          "observed": 0.5,
+          "ci_lower": 0.09453120573423074,
+          "ci_upper": 0.9054687942657693
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 1,
+          "events": 0,
+          "predicted": 0.8167311732844944,
+          "observed": 0.0,
+          "ci_lower": 0.0,
+          "ci_upper": 0.7934506856227626
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        }
+      ]
+    }
+  },
+  {
+    "dimension": "Age band",
+    "group": "20\u201329",
+    "n": 1912,
+    "events": 427,
+    "observed": 0.223326359832636,
+    "predicted": 0.23348956694351136,
+    "gap": 0.010163207110875363,
+    "gap_lower": -0.006229659069295987,
+    "gap_upper": 0.026347774217556956,
+    "fpr": 0.06464646464646465,
+    "fnr": 0.5714285714285714,
+    "fpr_lower": 0.0532287179168699,
+    "fpr_upper": 0.07831078057064494,
+    "fnr_lower": 0.5240588521548741,
+    "fnr_upper": 0.6175245510927383,
+    "small_group": false,
+    "observed_lower": 0.20522378205325265,
+    "observed_upper": 0.24253845572019173,
+    "gap_interval_method": "Ordinary customer bootstrap; unavailable for sparse groups",
+    "calibration_metrics": {
+      "metrics": [
+        {
+          "metric": "intercept",
+          "estimate": -0.07691005310427415,
+          "lower": -0.2438863279531101,
+          "upper": 0.0741181007260291,
+          "valid_replicates": 300
+        },
+        {
+          "metric": "slope",
+          "estimate": 0.9976171255222385,
+          "lower": 0.8889421670113964,
+          "upper": 1.094285939061386,
+          "valid_replicates": 300
+        },
+        {
+          "metric": "observed_expected_ratio",
+          "estimate": 0.9564725428895322,
+          "lower": 0.8826437772987362,
+          "upper": 1.022865291544699,
+          "valid_replicates": 300
+        }
+      ],
+      "n": 1912,
+      "events": 427,
+      "replicates": 300,
+      "seed": 355,
+      "resampling": "Ordinary customer bootstrap; prevalence varies; percentile 95% intervals conditional on fitted predictions",
+      "bands": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "n": 522,
+          "events": 34,
+          "predicted": 0.06620203794522322,
+          "observed": 0.06513409961685823,
+          "ci_lower": 0.046981919657857536,
+          "ci_upper": 0.08963997961538181
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "n": 677,
+          "events": 99,
+          "predicted": 0.14322299122218796,
+          "observed": 0.14623338257016247,
+          "ci_lower": 0.12161342181155346,
+          "ci_upper": 0.1748454030818508
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.30000000000000004,
+          "n": 249,
+          "events": 50,
+          "predicted": 0.2472162170345898,
+          "observed": 0.20080321285140562,
+          "ci_lower": 0.1557618565197198,
+          "ci_upper": 0.2549360539615461
+        },
+        {
+          "lower": 0.30000000000000004,
+          "upper": 0.4,
+          "n": 126,
+          "events": 35,
+          "predicted": 0.33837594039395175,
+          "observed": 0.2777777777777778,
+          "ci_lower": 0.2070307181237154,
+          "ci_upper": 0.36167406609059494
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 59,
+          "events": 26,
+          "predicted": 0.449438372092133,
+          "observed": 0.4406779661016949,
+          "ci_lower": 0.321502117676121,
+          "ci_upper": 0.5671064517084132
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6000000000000001,
+          "n": 67,
+          "events": 39,
+          "predicted": 0.5465124127577611,
+          "observed": 0.582089552238806,
+          "ci_lower": 0.4626993150297929,
+          "ci_upper": 0.692576990443277
+        },
+        {
+          "lower": 0.6000000000000001,
+          "upper": 0.7000000000000001,
+          "n": 106,
+          "events": 62,
+          "predicted": 0.6536239300659544,
+          "observed": 0.5849056603773585,
+          "ci_lower": 0.4897414310888927,
+          "ci_upper": 0.6741311193420271
+        },
+        {
+          "lower": 0.7000000000000001,
+          "upper": 0.8,
+          "n": 102,
+          "events": 78,
+          "predicted": 0.7351344645645269,
+          "observed": 0.7647058823529411,
+          "ci_lower": 0.6737179817230023,
+          "ci_upper": 0.83647906772887
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 4,
+          "events": 4,
+          "predicted": 0.8298422547840937,
+          "observed": 1.0,
+          "ci_lower": 0.5101091635454027,
+          "ci_upper": 1.0
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        }
+      ]
+    }
+  },
+  {
+    "dimension": "Age band",
+    "group": "30\u201339",
+    "n": 2198,
+    "events": 453,
+    "observed": 0.20609645131938126,
+    "predicted": 0.20457914267913266,
+    "gap": -0.0015173086402486076,
+    "gap_lower": -0.016502595046095917,
+    "gap_upper": 0.012956029921938717,
+    "fpr": 0.04469914040114613,
+    "fnr": 0.6666666666666666,
+    "fpr_lower": 0.03596289953945621,
+    "fpr_upper": 0.055435584876896135,
+    "fnr_lower": 0.6220151023302016,
+    "fnr_upper": 0.7085153192952709,
+    "small_group": false,
+    "observed_lower": 0.1897058107744797,
+    "observed_upper": 0.22351261381999818,
+    "gap_interval_method": "Ordinary customer bootstrap; unavailable for sparse groups",
+    "calibration_metrics": {
+      "metrics": [
+        {
+          "metric": "intercept",
+          "estimate": 0.005819988684474215,
+          "lower": -0.1555974309833976,
+          "upper": 0.1956353527396838,
+          "valid_replicates": 300
+        },
+        {
+          "metric": "slope",
+          "estimate": 0.994798061634141,
+          "lower": 0.8871154056083413,
+          "upper": 1.120261392484393,
+          "valid_replicates": 300
+        },
+        {
+          "metric": "observed_expected_ratio",
+          "estimate": 1.0074167318348204,
+          "lower": 0.9399999535742001,
+          "upper": 1.0800339406118606,
+          "valid_replicates": 300
+        }
+      ],
+      "n": 2198,
+      "events": 453,
+      "replicates": 300,
+      "seed": 356,
+      "resampling": "Ordinary customer bootstrap; prevalence varies; percentile 95% intervals conditional on fitted predictions",
+      "bands": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "n": 760,
+          "events": 39,
+          "predicted": 0.06401063357072022,
+          "observed": 0.05131578947368421,
+          "ci_lower": 0.03776334939812129,
+          "ci_upper": 0.06938121296571051
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "n": 745,
+          "events": 124,
+          "predicted": 0.14381660065109345,
+          "observed": 0.16644295302013423,
+          "ci_lower": 0.14142122355337042,
+          "ci_upper": 0.19488689060647366
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.30000000000000004,
+          "n": 261,
+          "events": 61,
+          "predicted": 0.24562469960509828,
+          "observed": 0.23371647509578544,
+          "ci_lower": 0.18646507431800574,
+          "ci_upper": 0.28869262712741894
+        },
+        {
+          "lower": 0.30000000000000004,
+          "upper": 0.4,
+          "n": 141,
+          "events": 49,
+          "predicted": 0.3425038163670257,
+          "observed": 0.3475177304964539,
+          "ci_lower": 0.27390776675020173,
+          "ci_upper": 0.4292159082658607
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 62,
+          "events": 29,
+          "predicted": 0.44599424518936936,
+          "observed": 0.46774193548387094,
+          "ci_lower": 0.34908832973334164,
+          "ci_upper": 0.5901596749183597
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6000000000000001,
+          "n": 55,
+          "events": 32,
+          "predicted": 0.5395128186354701,
+          "observed": 0.5818181818181818,
+          "ci_lower": 0.45033103735230756,
+          "ci_upper": 0.7026223424648965
+        },
+        {
+          "lower": 0.6000000000000001,
+          "upper": 0.7000000000000001,
+          "n": 68,
+          "events": 44,
+          "predicted": 0.6608083103455451,
+          "observed": 0.6470588235294118,
+          "ci_lower": 0.5284105522251017,
+          "ci_upper": 0.7499802311513482
+        },
+        {
+          "lower": 0.7000000000000001,
+          "upper": 0.8,
+          "n": 99,
+          "events": 69,
+          "predicted": 0.7427486126239037,
+          "observed": 0.696969696969697,
+          "ci_lower": 0.6004873885572547,
+          "ci_upper": 0.7787371036584497
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 7,
+          "events": 6,
+          "predicted": 0.8114994178978593,
+          "observed": 0.8571428571428571,
+          "ci_lower": 0.4868721707256811,
+          "ci_upper": 0.9743203756552565
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        }
+      ]
+    }
+  },
+  {
+    "dimension": "Age band",
+    "group": "40\u201349",
+    "n": 1341,
+    "events": 312,
+    "observed": 0.232662192393736,
+    "predicted": 0.22210897144657685,
+    "gap": -0.010553220947159178,
+    "gap_lower": -0.030366078534792482,
+    "gap_upper": 0.008490988814941161,
+    "fpr": 0.05539358600583091,
+    "fnr": 0.6442307692307693,
+    "fpr_lower": 0.042999156743120964,
+    "fpr_upper": 0.07109527451184276,
+    "fnr_lower": 0.5896492929345363,
+    "fnr_upper": 0.6953037982019057,
+    "small_group": false,
+    "observed_lower": 0.21083058891986475,
+    "observed_upper": 0.25602106463583013,
+    "gap_interval_method": "Ordinary customer bootstrap; unavailable for sparse groups",
+    "calibration_metrics": {
+      "metrics": [
+        {
+          "metric": "intercept",
+          "estimate": 0.008291234224436242,
+          "lower": -0.19841826545181154,
+          "upper": 0.22974401370445047,
+          "valid_replicates": 300
+        },
+        {
+          "metric": "slope",
+          "estimate": 0.9377469606152607,
+          "lower": 0.8169207826715588,
+          "upper": 1.0817520278805473,
+          "valid_replicates": 300
+        },
+        {
+          "metric": "observed_expected_ratio",
+          "estimate": 1.0475137086018045,
+          "lower": 0.9655206834713238,
+          "upper": 1.1412994359197146,
+          "valid_replicates": 300
+        }
+      ],
+      "n": 1341,
+      "events": 312,
+      "replicates": 300,
+      "seed": 357,
+      "resampling": "Ordinary customer bootstrap; prevalence varies; percentile 95% intervals conditional on fitted predictions",
+      "bands": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "n": 384,
+          "events": 30,
+          "predicted": 0.06556130250819273,
+          "observed": 0.078125,
+          "ci_lower": 0.05527000709995152,
+          "ci_upper": 0.10933709554146345
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "n": 504,
+          "events": 79,
+          "predicted": 0.14475422548424102,
+          "observed": 0.15674603174603174,
+          "ci_lower": 0.12761610544605945,
+          "ci_upper": 0.19106890147819056
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.30000000000000004,
+          "n": 157,
+          "events": 40,
+          "predicted": 0.24158487037049972,
+          "observed": 0.25477707006369427,
+          "ci_lower": 0.19303975813289959,
+          "ci_upper": 0.3282279512961755
+        },
+        {
+          "lower": 0.30000000000000004,
+          "upper": 0.4,
+          "n": 89,
+          "events": 32,
+          "predicted": 0.35226334868701703,
+          "observed": 0.3595505617977528,
+          "ci_lower": 0.26757786703977027,
+          "ci_upper": 0.46314588162209835
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 39,
+          "events": 20,
+          "predicted": 0.4461768009406684,
+          "observed": 0.5128205128205128,
+          "ci_lower": 0.36199362884457964,
+          "ci_upper": 0.6613482467013799
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6000000000000001,
+          "n": 40,
+          "events": 18,
+          "predicted": 0.5534769254196323,
+          "observed": 0.45,
+          "ci_lower": 0.3070530781090492,
+          "ci_upper": 0.6017090820106794
+        },
+        {
+          "lower": 0.6000000000000001,
+          "upper": 0.7000000000000001,
+          "n": 60,
+          "events": 43,
+          "predicted": 0.659502935061013,
+          "observed": 0.7166666666666667,
+          "ci_lower": 0.5923271483560882,
+          "ci_upper": 0.8149317157156729
+        },
+        {
+          "lower": 0.7000000000000001,
+          "upper": 0.8,
+          "n": 62,
+          "events": 46,
+          "predicted": 0.7482757792965768,
+          "observed": 0.7419354838709677,
+          "ci_lower": 0.6211887265285199,
+          "ci_upper": 0.8344512385837193
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 6,
+          "events": 4,
+          "predicted": 0.8221585913038622,
+          "observed": 0.6666666666666666,
+          "ci_lower": 0.299993315138392,
+          "ci_upper": 0.9032285888942195
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        }
+      ]
+    }
+  },
+  {
+    "dimension": "Age band",
+    "group": "50\u201359",
+    "n": 473,
+    "events": 112,
+    "observed": 0.23678646934460887,
+    "predicted": 0.23668135438126875,
+    "gap": -0.00010511496334012284,
+    "gap_lower": -0.03314845062927669,
+    "gap_upper": 0.035479705280633066,
+    "fpr": 0.055401662049861494,
+    "fnr": 0.6339285714285714,
+    "fpr_lower": 0.036146995734272616,
+    "fpr_upper": 0.0840187852118028,
+    "fnr_lower": 0.5416508182333701,
+    "fnr_upper": 0.7173238209451269,
+    "small_group": false,
+    "observed_lower": 0.20069208022499843,
+    "observed_upper": 0.27712178139723304,
+    "gap_interval_method": "Ordinary customer bootstrap; unavailable for sparse groups",
+    "calibration_metrics": {
+      "metrics": [
+        {
+          "metric": "intercept",
+          "estimate": 0.04812777527333855,
+          "lower": -0.2632763990892956,
+          "upper": 0.3303588916719191,
+          "valid_replicates": 300
+        },
+        {
+          "metric": "slope",
+          "estimate": 1.0471188693813527,
+          "lower": 0.8500054207902717,
+          "upper": 1.2648023570093256,
+          "valid_replicates": 300
+        },
+        {
+          "metric": "observed_expected_ratio",
+          "estimate": 1.0004441201699852,
+          "lower": 0.847878030221216,
+          "upper": 1.1308476284410847,
+          "valid_replicates": 300
+        }
+      ],
+      "n": 473,
+      "events": 112,
+      "replicates": 300,
+      "seed": 358,
+      "resampling": "Ordinary customer bootstrap; prevalence varies; percentile 95% intervals conditional on fitted predictions",
+      "bands": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "n": 99,
+          "events": 8,
+          "predicted": 0.0651406433067748,
+          "observed": 0.08080808080808081,
+          "ci_lower": 0.041514402502911794,
+          "ci_upper": 0.15141808842264048
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "n": 205,
+          "events": 28,
+          "predicted": 0.14487563200722955,
+          "observed": 0.13658536585365855,
+          "ci_lower": 0.09621794080587114,
+          "ci_upper": 0.1903221894853679
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.30000000000000004,
+          "n": 61,
+          "events": 16,
+          "predicted": 0.2557156598544037,
+          "observed": 0.26229508196721313,
+          "ci_lower": 0.1683878636236148,
+          "ci_upper": 0.3843674178361438
+        },
+        {
+          "lower": 0.30000000000000004,
+          "upper": 0.4,
+          "n": 29,
+          "events": 9,
+          "predicted": 0.35643767938025006,
+          "observed": 0.3103448275862069,
+          "ci_lower": 0.17275616744483216,
+          "ci_upper": 0.4923013423309317
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 18,
+          "events": 10,
+          "predicted": 0.4571556979185163,
+          "observed": 0.5555555555555556,
+          "ci_lower": 0.33716415642042774,
+          "ci_upper": 0.7544048187299437
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6000000000000001,
+          "n": 13,
+          "events": 4,
+          "predicted": 0.5691819103171833,
+          "observed": 0.3076923076923077,
+          "ci_lower": 0.12680703655710515,
+          "ci_upper": 0.5763065681945096
+        },
+        {
+          "lower": 0.6000000000000001,
+          "upper": 0.7000000000000001,
+          "n": 20,
+          "events": 12,
+          "predicted": 0.6542108205329666,
+          "observed": 0.6,
+          "ci_lower": 0.3865815007622531,
+          "ci_upper": 0.781193467627183
+        },
+        {
+          "lower": 0.7000000000000001,
+          "upper": 0.8,
+          "n": 23,
+          "events": 20,
+          "predicted": 0.7397721255407993,
+          "observed": 0.8695652173913043,
+          "ci_lower": 0.6787251772990404,
+          "ci_upper": 0.9546234090636876
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 5,
+          "events": 5,
+          "predicted": 0.8278723451174181,
+          "observed": 1.0,
+          "ci_lower": 0.5655175352168251,
+          "ci_upper": 1.0
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        }
+      ]
+    }
+  },
+  {
+    "dimension": "Age band",
+    "group": "60+",
+    "n": 76,
+    "events": 23,
+    "observed": 0.3026315789473684,
+    "predicted": 0.24954140528174582,
+    "gap": -0.05309017366562256,
+    "gap_lower": null,
+    "gap_upper": null,
+    "fpr": 0.05660377358490566,
+    "fnr": 0.6521739130434783,
+    "fpr_lower": 0.019436661484935766,
+    "fpr_upper": 0.15370208310180888,
+    "fnr_lower": 0.44890335377263,
+    "fnr_upper": 0.8118872406120227,
+    "small_group": true,
+    "observed_lower": 0.21091334677752482,
+    "observed_upper": 0.4133420157481873,
+    "gap_interval_method": "Ordinary customer bootstrap; unavailable for sparse groups",
+    "calibration_metrics": {
+      "metrics": [
+        {
+          "metric": "intercept",
+          "estimate": 0.3417205917074823,
+          "lower": -0.36773886649387877,
+          "upper": 1.372725702148213,
+          "valid_replicates": 300
+        },
+        {
+          "metric": "slope",
+          "estimate": 1.000456649422087,
+          "lower": 0.5634128776430173,
+          "upper": 1.8322792345963368,
+          "valid_replicates": 300
+        },
+        {
+          "metric": "observed_expected_ratio",
+          "estimate": 1.2127509605297,
+          "lower": 0.8669522508350456,
+          "upper": 1.5730955116626404,
+          "valid_replicates": 300
+        }
+      ],
+      "n": 76,
+      "events": 23,
+      "replicates": 300,
+      "seed": 359,
+      "resampling": "Ordinary customer bootstrap; prevalence varies; percentile 95% intervals conditional on fitted predictions",
+      "bands": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "n": 13,
+          "events": 1,
+          "predicted": 0.06778695886317174,
+          "observed": 0.07692307692307693,
+          "ci_lower": 0.013710421242556586,
+          "ci_upper": 0.3331395092109959
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "n": 31,
+          "events": 6,
+          "predicted": 0.13715433480904196,
+          "observed": 0.1935483870967742,
+          "ci_lower": 0.09187008361586096,
+          "ci_upper": 0.36280257811795463
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.30000000000000004,
+          "n": 11,
+          "events": 4,
+          "predicted": 0.25540517138740304,
+          "observed": 0.36363636363636365,
+          "ci_lower": 0.15166471095367573,
+          "ci_upper": 0.6461988254921511
+        },
+        {
+          "lower": 0.30000000000000004,
+          "upper": 0.4,
+          "n": 8,
+          "events": 2,
+          "predicted": 0.32854494271134854,
+          "observed": 0.25,
+          "ci_lower": 0.071479212752109,
+          "ci_upper": 0.5907245696898311
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 2,
+          "events": 2,
+          "predicted": 0.45786977415494773,
+          "observed": 1.0,
+          "ci_lower": 0.34238022750665303,
+          "ci_upper": 1.0
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6000000000000001,
+          "n": 2,
+          "events": 1,
+          "predicted": 0.5586523936326806,
+          "observed": 0.5,
+          "ci_lower": 0.09453120573423074,
+          "ci_upper": 0.9054687942657693
+        },
+        {
+          "lower": 0.6000000000000001,
+          "upper": 0.7000000000000001,
+          "n": 4,
+          "events": 2,
+          "predicted": 0.6522995331233797,
+          "observed": 0.5,
+          "ci_lower": 0.15003898915214947,
+          "ci_upper": 0.8499610108478506
+        },
+        {
+          "lower": 0.7000000000000001,
+          "upper": 0.8,
+          "n": 3,
+          "events": 3,
+          "predicted": 0.7108069776910627,
+          "observed": 1.0,
+          "ci_lower": 0.4385029682449546,
+          "ci_upper": 1.0
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 2,
+          "events": 2,
+          "predicted": 0.8098260645084834,
+          "observed": 1.0,
+          "ci_lower": 0.34238022750665303,
+          "ci_upper": 1.0
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        }
+      ]
+    }
+  },
+  {
+    "dimension": "Credit limit band (training quartiles)",
+    "group": "(-inf, 50000.0]",
+    "n": 1530,
+    "events": 463,
+    "observed": 0.3026143790849673,
+    "predicted": 0.31892811595621795,
+    "gap": 0.016313736871250626,
+    "gap_lower": -0.004710835124983189,
+    "gap_upper": 0.03605558619680564,
+    "fpr": 0.12652296157450796,
+    "fnr": 0.5118790496760259,
+    "fpr_lower": 0.10790659030141485,
+    "fpr_upper": 0.1478189016143283,
+    "fnr_lower": 0.4664381405219311,
+    "fnr_upper": 0.5571244625677507,
+    "small_group": false,
+    "observed_lower": 0.2801134026818621,
+    "observed_upper": 0.3261040479375846,
+    "gap_interval_method": "Ordinary customer bootstrap; unavailable for sparse groups",
+    "calibration_metrics": {
+      "metrics": [
+        {
+          "metric": "intercept",
+          "estimate": -0.13052558223327834,
+          "lower": -0.2681661926375537,
+          "upper": 0.03645579767666301,
+          "valid_replicates": 300
+        },
+        {
+          "metric": "slope",
+          "estimate": 0.9458617496867278,
+          "lower": 0.831222111166675,
+          "upper": 1.0815200609488842,
+          "valid_replicates": 300
+        },
+        {
+          "metric": "observed_expected_ratio",
+          "estimate": 0.9488482323913701,
+          "lower": 0.8870149520785663,
+          "upper": 1.0185643336229213,
+          "valid_replicates": 300
+        }
+      ],
+      "n": 1530,
+      "events": 463,
+      "replicates": 300,
+      "seed": 360,
+      "resampling": "Ordinary customer bootstrap; prevalence varies; percentile 95% intervals conditional on fitted predictions",
+      "bands": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "n": 52,
+          "events": 3,
+          "predicted": 0.08731986550107904,
+          "observed": 0.057692307692307696,
+          "ci_lower": 0.019814172112270614,
+          "ci_upper": 0.1564251136896076
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "n": 652,
+          "events": 105,
+          "predicted": 0.14984341106658788,
+          "observed": 0.16104294478527606,
+          "ci_lower": 0.1348270728601779,
+          "ci_upper": 0.19122956162769758
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.30000000000000004,
+          "n": 223,
+          "events": 43,
+          "predicted": 0.24809583867654628,
+          "observed": 0.19282511210762332,
+          "ci_lower": 0.14642451934262296,
+          "ci_upper": 0.2496294440191139
+        },
+        {
+          "lower": 0.30000000000000004,
+          "upper": 0.4,
+          "n": 162,
+          "events": 49,
+          "predicted": 0.34444880504165026,
+          "observed": 0.30246913580246915,
+          "ci_lower": 0.23698755370031604,
+          "ci_upper": 0.3771017068795968
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 80,
+          "events": 37,
+          "predicted": 0.4470823463348867,
+          "observed": 0.4625,
+          "ci_lower": 0.35747993562785246,
+          "ci_upper": 0.570956424087312
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6000000000000001,
+          "n": 103,
+          "events": 51,
+          "predicted": 0.5478361493473055,
+          "observed": 0.49514563106796117,
+          "ci_lower": 0.4005157766877741,
+          "ci_upper": 0.5901245607707564
+        },
+        {
+          "lower": 0.6000000000000001,
+          "upper": 0.7000000000000001,
+          "n": 119,
+          "events": 72,
+          "predicted": 0.6531222656226613,
+          "observed": 0.6050420168067226,
+          "ci_lower": 0.5152490035352083,
+          "ci_upper": 0.6882653493551404
+        },
+        {
+          "lower": 0.7000000000000001,
+          "upper": 0.8,
+          "n": 122,
+          "events": 89,
+          "predicted": 0.7440057794850276,
+          "observed": 0.7295081967213115,
+          "ci_lower": 0.6445747065740072,
+          "ci_upper": 0.800429670558905
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 17,
+          "events": 14,
+          "predicted": 0.8183197737700808,
+          "observed": 0.8235294117647058,
+          "ci_lower": 0.5897054143116588,
+          "ci_upper": 0.9380887336237901
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        }
+      ]
+    }
+  },
+  {
+    "dimension": "Credit limit band (training quartiles)",
+    "group": "(140000.0, 240000.0]",
+    "n": 1465,
+    "events": 243,
+    "observed": 0.1658703071672355,
+    "predicted": 0.17478324766254996,
+    "gap": 0.00891294049531448,
+    "gap_lower": -0.007978798580866473,
+    "gap_upper": 0.025803715237370746,
+    "fpr": 0.02618657937806874,
+    "fnr": 0.7407407407407407,
+    "fpr_lower": 0.018609515586003142,
+    "fpr_upper": 0.03673325189223192,
+    "fnr_lower": 0.6821972290789899,
+    "fnr_upper": 0.7917912190487164,
+    "small_group": false,
+    "observed_lower": 0.14770185120691845,
+    "observed_upper": 0.1857864608767961,
+    "gap_interval_method": "Ordinary customer bootstrap; unavailable for sparse groups",
+    "calibration_metrics": {
+      "metrics": [
+        {
+          "metric": "intercept",
+          "estimate": -0.003823432481370355,
+          "lower": -0.2456213650637734,
+          "upper": 0.23609300721211976,
+          "valid_replicates": 300
+        },
+        {
+          "metric": "slope",
+          "estimate": 1.0539995835823006,
+          "lower": 0.9097296381872308,
+          "upper": 1.2143751444826902,
+          "valid_replicates": 300
+        },
+        {
+          "metric": "observed_expected_ratio",
+          "estimate": 0.9490057507540854,
+          "lower": 0.8414527899921717,
+          "upper": 1.0413785141262424,
+          "valid_replicates": 300
+        }
+      ],
+      "n": 1465,
+      "events": 243,
+      "replicates": 300,
+      "seed": 361,
+      "resampling": "Ordinary customer bootstrap; prevalence varies; percentile 95% intervals conditional on fitted predictions",
+      "bands": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "n": 593,
+          "events": 29,
+          "predicted": 0.06699934843960159,
+          "observed": 0.048903878583473864,
+          "ci_lower": 0.034263119248067415,
+          "ci_upper": 0.06935143015486342
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "n": 486,
+          "events": 76,
+          "predicted": 0.1446222532110339,
+          "observed": 0.15637860082304528,
+          "ci_lower": 0.1267957375048393,
+          "ci_upper": 0.19135099347192702
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.30000000000000004,
+          "n": 197,
+          "events": 39,
+          "predicted": 0.2429898249476933,
+          "observed": 0.19796954314720813,
+          "ci_lower": 0.14833628859882253,
+          "ci_upper": 0.2591565632319342
+        },
+        {
+          "lower": 0.30000000000000004,
+          "upper": 0.4,
+          "n": 70,
+          "events": 21,
+          "predicted": 0.3436932245549018,
+          "observed": 0.3,
+          "ci_lower": 0.2053660525763799,
+          "ci_upper": 0.4154431723877268
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 24,
+          "events": 15,
+          "predicted": 0.4413885767721994,
+          "observed": 0.625,
+          "ci_lower": 0.42709962442674276,
+          "ci_upper": 0.7884063244045122
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6000000000000001,
+          "n": 21,
+          "events": 14,
+          "predicted": 0.562899263719308,
+          "observed": 0.6666666666666666,
+          "ci_lower": 0.4537345197425524,
+          "ci_upper": 0.8280524739491653
+        },
+        {
+          "lower": 0.6000000000000001,
+          "upper": 0.7000000000000001,
+          "n": 33,
+          "events": 17,
+          "predicted": 0.6556620968346406,
+          "observed": 0.5151515151515151,
+          "ci_lower": 0.3521837544891414,
+          "ci_upper": 0.674959578918663
+        },
+        {
+          "lower": 0.7000000000000001,
+          "upper": 0.8,
+          "n": 41,
+          "events": 32,
+          "predicted": 0.7332158129431557,
+          "observed": 0.7804878048780488,
+          "ci_lower": 0.6329499401177383,
+          "ci_upper": 0.8799682522178243
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        }
+      ]
+    }
+  },
+  {
+    "dimension": "Credit limit band (training quartiles)",
+    "group": "(240000.0, inf]",
+    "n": 1458,
+    "events": 248,
+    "observed": 0.1700960219478738,
+    "predicted": 0.14079409844733665,
+    "gap": -0.029301923500537154,
+    "gap_lower": -0.046841086618159014,
+    "gap_upper": -0.01140637419047509,
+    "fpr": 0.01487603305785124,
+    "fnr": 0.7862903225806451,
+    "fpr_lower": 0.009430257769584085,
+    "fpr_upper": 0.023392363777221575,
+    "fnr_lower": 0.731107730457856,
+    "fnr_upper": 0.8327390669080258,
+    "small_group": false,
+    "observed_lower": 0.1516833312279392,
+    "observed_upper": 0.1902425703838056,
+    "gap_interval_method": "Ordinary customer bootstrap; unavailable for sparse groups",
+    "calibration_metrics": {
+      "metrics": [
+        {
+          "metric": "intercept",
+          "estimate": 0.476896731935846,
+          "lower": 0.1844835838583621,
+          "upper": 0.806091863896443,
+          "valid_replicates": 300
+        },
+        {
+          "metric": "slope",
+          "estimate": 1.1222864948338387,
+          "lower": 0.979706108765216,
+          "upper": 1.280869112233537,
+          "valid_replicates": 300
+        },
+        {
+          "metric": "observed_expected_ratio",
+          "estimate": 1.2081189753240786,
+          "lower": 1.0962220587698985,
+          "upper": 1.3299359780152669,
+          "valid_replicates": 300
+        }
+      ],
+      "n": 1458,
+      "events": 248,
+      "replicates": 300,
+      "seed": 362,
+      "resampling": "Ordinary customer bootstrap; prevalence varies; percentile 95% intervals conditional on fitted predictions",
+      "bands": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "n": 803,
+          "events": 52,
+          "predicted": 0.0575050639669358,
+          "observed": 0.0647571606475716,
+          "ci_lower": 0.04972254875431503,
+          "ci_upper": 0.08393624832623994
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "n": 397,
+          "events": 70,
+          "predicted": 0.14108766589422422,
+          "observed": 0.17632241813602015,
+          "ci_lower": 0.1419883125478178,
+          "ci_upper": 0.2168604433764984
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.30000000000000004,
+          "n": 116,
+          "events": 38,
+          "predicted": 0.24831730861645815,
+          "observed": 0.3275862068965517,
+          "ci_lower": 0.2489029797678997,
+          "ci_upper": 0.4173227121285274
+        },
+        {
+          "lower": 0.30000000000000004,
+          "upper": 0.4,
+          "n": 54,
+          "events": 25,
+          "predicted": 0.35372843763931344,
+          "observed": 0.46296296296296297,
+          "ci_lower": 0.336899011179811,
+          "ci_upper": 0.5939464397898851
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 17,
+          "events": 10,
+          "predicted": 0.455100366387809,
+          "observed": 0.5882352941176471,
+          "ci_lower": 0.3600544264299978,
+          "ci_upper": 0.7838894320978518
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6000000000000001,
+          "n": 15,
+          "events": 8,
+          "predicted": 0.5438607555708896,
+          "observed": 0.5333333333333333,
+          "ci_lower": 0.30116980025498397,
+          "ci_upper": 0.7519046463426261
+        },
+        {
+          "lower": 0.6000000000000001,
+          "upper": 0.7000000000000001,
+          "n": 28,
+          "events": 22,
+          "predicted": 0.6570578273464417,
+          "observed": 0.7857142857142857,
+          "ci_lower": 0.6046141434627812,
+          "ci_upper": 0.8978753966710211
+        },
+        {
+          "lower": 0.7000000000000001,
+          "upper": 0.8,
+          "n": 25,
+          "events": 20,
+          "predicted": 0.7360036705697866,
+          "observed": 0.8,
+          "ci_lower": 0.6086904963045967,
+          "ci_upper": 0.9113941531319742
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 3,
+          "events": 3,
+          "predicted": 0.8303179622090529,
+          "observed": 1.0,
+          "ci_lower": 0.4385029682449546,
+          "ci_upper": 1.0
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        }
+      ]
+    }
+  },
+  {
+    "dimension": "Credit limit band (training quartiles)",
+    "group": "(50000.0, 140000.0]",
+    "n": 1547,
+    "events": 373,
+    "observed": 0.24111182934712347,
+    "predicted": 0.2427700678496921,
+    "gap": 0.0016582385025685957,
+    "gap_lower": -0.016352524189093172,
+    "gap_upper": 0.020122444540551506,
+    "fpr": 0.05877342419080068,
+    "fnr": 0.5924932975871313,
+    "fpr_lower": 0.046703544215569125,
+    "fpr_upper": 0.07372137185311123,
+    "fnr_lower": 0.5419304923723671,
+    "fnr_upper": 0.6411703803817399,
+    "small_group": false,
+    "observed_lower": 0.2204540867898912,
+    "observed_upper": 0.26305211209061574,
+    "gap_interval_method": "Ordinary customer bootstrap; unavailable for sparse groups",
+    "calibration_metrics": {
+      "metrics": [
+        {
+          "metric": "intercept",
+          "estimate": -0.014196853169660677,
+          "lower": -0.18291915558749733,
+          "upper": 0.16851270092638965,
+          "valid_replicates": 300
+        },
+        {
+          "metric": "slope",
+          "estimate": 0.9976620209683648,
+          "lower": 0.8896611875410779,
+          "upper": 1.1207187565959094,
+          "valid_replicates": 300
+        },
+        {
+          "metric": "observed_expected_ratio",
+          "estimate": 0.9931695100748775,
+          "lower": 0.9271325871066972,
+          "upper": 1.077192316619477,
+          "valid_replicates": 300
+        }
+      ],
+      "n": 1547,
+      "events": 373,
+      "replicates": 300,
+      "seed": 363,
+      "resampling": "Ordinary customer bootstrap; prevalence varies; percentile 95% intervals conditional on fitted predictions",
+      "bands": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "n": 330,
+          "events": 28,
+          "predicted": 0.07655583830515922,
+          "observed": 0.08484848484848485,
+          "ci_lower": 0.05935483161263034,
+          "ci_upper": 0.1198962986456846
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "n": 627,
+          "events": 85,
+          "predicted": 0.1387825018997143,
+          "observed": 0.13556618819776714,
+          "ci_lower": 0.11097993575618606,
+          "ci_upper": 0.1645908219832883
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.30000000000000004,
+          "n": 203,
+          "events": 51,
+          "predicted": 0.24631845361584953,
+          "observed": 0.2512315270935961,
+          "ci_lower": 0.1965641962014924,
+          "ci_upper": 0.3151391123332126
+        },
+        {
+          "lower": 0.30000000000000004,
+          "upper": 0.4,
+          "n": 107,
+          "events": 32,
+          "predicted": 0.33910587949661397,
+          "observed": 0.29906542056074764,
+          "ci_lower": 0.22051008616542964,
+          "ci_upper": 0.39154843004771234
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 59,
+          "events": 25,
+          "predicted": 0.4511410970303311,
+          "observed": 0.423728813559322,
+          "ci_lower": 0.30612727435188697,
+          "ci_upper": 0.5506551719996571
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6000000000000001,
+          "n": 38,
+          "events": 21,
+          "predicted": 0.5405095806172003,
+          "observed": 0.5526315789473685,
+          "ci_lower": 0.3970629712199248,
+          "ci_upper": 0.6985359900194876
+        },
+        {
+          "lower": 0.6000000000000001,
+          "upper": 0.7000000000000001,
+          "n": 78,
+          "events": 52,
+          "predicted": 0.663162491884124,
+          "observed": 0.6666666666666666,
+          "ci_lower": 0.556414097126188,
+          "ci_upper": 0.761273299636414
+        },
+        {
+          "lower": 0.7000000000000001,
+          "upper": 0.8,
+          "n": 101,
+          "events": 75,
+          "predicted": 0.7408461483184174,
+          "observed": 0.7425742574257426,
+          "ci_lower": 0.6495247830925932,
+          "ci_upper": 0.8178475765748034
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 4,
+          "events": 4,
+          "predicted": 0.8223600765325214,
+          "observed": 1.0,
+          "ci_lower": 0.5101091635454027,
+          "ci_upper": 1.0
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        }
+      ]
+    }
+  },
+  {
+    "dimension": "September repayment status",
+    "group": "-1",
+    "n": 1159,
+    "events": 201,
+    "observed": 0.1734253666954271,
+    "predicted": 0.15505346004350276,
+    "gap": -0.018371906651924338,
+    "gap_lower": -0.04070295250433542,
+    "gap_upper": 0.0022505526166262503,
+    "fpr": 0.009394572025052192,
+    "fnr": 0.9701492537313433,
+    "fpr_lower": 0.004950279845701961,
+    "fpr_upper": 0.01775768165917407,
+    "fnr_lower": 0.9364159829866472,
+    "fnr_upper": 0.986248799270343,
+    "small_group": false,
+    "observed_lower": 0.15271616589065626,
+    "observed_upper": 0.19629225287717975,
+    "gap_interval_method": "Ordinary customer bootstrap; unavailable for sparse groups",
+    "calibration_metrics": {
+      "metrics": [
+        {
+          "metric": "intercept",
+          "estimate": 0.21637384622922617,
+          "lower": -0.1512041310064772,
+          "upper": 0.6321959164479525,
+          "valid_replicates": 300
+        },
+        {
+          "metric": "slope",
+          "estimate": 1.0459505632591086,
+          "lower": 0.8266652682243293,
+          "upper": 1.3076261314190836,
+          "valid_replicates": 300
+        },
+        {
+          "metric": "observed_expected_ratio",
+          "estimate": 1.1184875632363818,
+          "lower": 0.9999063397673901,
+          "upper": 1.2698399554599449,
+          "valid_replicates": 300
+        }
+      ],
+      "n": 1159,
+      "events": 201,
+      "replicates": 300,
+      "seed": 364,
+      "resampling": "Ordinary customer bootstrap; prevalence varies; percentile 95% intervals conditional on fitted predictions",
+      "bands": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "n": 401,
+          "events": 25,
+          "predicted": 0.06584680770785416,
+          "observed": 0.06234413965087282,
+          "ci_lower": 0.042581785364901134,
+          "ci_upper": 0.09041215003275958
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "n": 462,
+          "events": 76,
+          "predicted": 0.14696039611990194,
+          "observed": 0.1645021645021645,
+          "ci_lower": 0.1334895981590712,
+          "ci_upper": 0.20104794861750003
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.30000000000000004,
+          "n": 205,
+          "events": 60,
+          "predicted": 0.24050615081497925,
+          "observed": 0.2926829268292683,
+          "ci_lower": 0.23467005670151575,
+          "ci_upper": 0.35832263507536544
+        },
+        {
+          "lower": 0.30000000000000004,
+          "upper": 0.4,
+          "n": 57,
+          "events": 22,
+          "predicted": 0.3446604913820598,
+          "observed": 0.38596491228070173,
+          "ci_lower": 0.2706272388614066,
+          "ci_upper": 0.5157026708419042
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 19,
+          "events": 12,
+          "predicted": 0.4309600463372446,
+          "observed": 0.631578947368421,
+          "ci_lower": 0.41039533164803066,
+          "ci_upper": 0.8085048725486492
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6000000000000001,
+          "n": 14,
+          "events": 5,
+          "predicted": 0.5429474129868926,
+          "observed": 0.35714285714285715,
+          "ci_lower": 0.1634473175355414,
+          "ci_upper": 0.612355768960926
+        },
+        {
+          "lower": 0.6000000000000001,
+          "upper": 0.7000000000000001,
+          "n": 1,
+          "events": 1,
+          "predicted": 0.6677737041031848,
+          "observed": 1.0,
+          "ci_lower": 0.20654931437723745,
+          "ci_upper": 1.0
+        },
+        {
+          "lower": 0.7000000000000001,
+          "upper": 0.8,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        }
+      ]
+    }
+  },
+  {
+    "dimension": "September repayment status",
+    "group": "-2",
+    "n": 561,
+    "events": 86,
+    "observed": 0.1532976827094474,
+    "predicted": 0.14290817026085223,
+    "gap": -0.010389512448595178,
+    "gap_lower": -0.03870954734679674,
+    "gap_upper": 0.01879759245373646,
+    "fpr": 0.0,
+    "fnr": 1.0,
+    "fpr_lower": 8.673617379884035e-19,
+    "fpr_upper": 0.008022402300241486,
+    "fnr_lower": 0.9572418027142576,
+    "fnr_upper": 0.9999999999999999,
+    "small_group": false,
+    "observed_lower": 0.12585112332038811,
+    "observed_upper": 0.18546005271797356,
+    "gap_interval_method": "Ordinary customer bootstrap; unavailable for sparse groups",
+    "calibration_metrics": {
+      "metrics": [
+        {
+          "metric": "intercept",
+          "estimate": 0.2823395593209793,
+          "lower": -0.4589265129925082,
+          "upper": 1.0652332440039007,
+          "valid_replicates": 300
+        },
+        {
+          "metric": "slope",
+          "estimate": 1.118269984232115,
+          "lower": 0.6779061573550798,
+          "upper": 1.606015478128783,
+          "valid_replicates": 300
+        },
+        {
+          "metric": "observed_expected_ratio",
+          "estimate": 1.0727006190732906,
+          "lower": 0.8814769679180974,
+          "upper": 1.2793602029918145,
+          "valid_replicates": 300
+        }
+      ],
+      "n": 561,
+      "events": 86,
+      "replicates": 300,
+      "seed": 365,
+      "resampling": "Ordinary customer bootstrap; prevalence varies; percentile 95% intervals conditional on fitted predictions",
+      "bands": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "n": 183,
+          "events": 13,
+          "predicted": 0.0671809396650477,
+          "observed": 0.07103825136612021,
+          "ci_lower": 0.041981931689040165,
+          "ci_upper": 0.11773347092581546
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "n": 255,
+          "events": 37,
+          "predicted": 0.14490703310183356,
+          "observed": 0.1450980392156863,
+          "ci_lower": 0.10713684411071109,
+          "ci_upper": 0.1935934143855402
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.30000000000000004,
+          "n": 118,
+          "events": 35,
+          "predicted": 0.24687058630678813,
+          "observed": 0.2966101694915254,
+          "ci_lower": 0.2216657260538825,
+          "ci_upper": 0.384379699989166
+        },
+        {
+          "lower": 0.30000000000000004,
+          "upper": 0.4,
+          "n": 4,
+          "events": 1,
+          "predicted": 0.32614689422255444,
+          "observed": 0.25,
+          "ci_lower": 0.04558726080970055,
+          "ci_upper": 0.6993581574175981
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 1,
+          "events": 0,
+          "predicted": 0.4907613555756062,
+          "observed": 0.0,
+          "ci_lower": 0.0,
+          "ci_upper": 0.7934506856227626
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6000000000000001,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        },
+        {
+          "lower": 0.6000000000000001,
+          "upper": 0.7000000000000001,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        },
+        {
+          "lower": 0.7000000000000001,
+          "upper": 0.8,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        }
+      ]
+    }
+  },
+  {
+    "dimension": "September repayment status",
+    "group": "0",
+    "n": 2956,
+    "events": 380,
+    "observed": 0.12855209742895804,
+    "predicted": 0.12977349843395214,
+    "gap": 0.001221401004994079,
+    "gap_lower": -0.011190182575239278,
+    "gap_upper": 0.012788531079790215,
+    "fpr": 0.0015527950310559005,
+    "fnr": 0.9947368421052631,
+    "fpr_lower": 0.0006040121992462232,
+    "fpr_upper": 0.003985982577451076,
+    "fnr_lower": 0.9810156362097371,
+    "fnr_upper": 0.9985554636793004,
+    "small_group": false,
+    "observed_lower": 0.11696658236862204,
+    "observed_upper": 0.14110178698418632,
+    "gap_interval_method": "Ordinary customer bootstrap; unavailable for sparse groups",
+    "calibration_metrics": {
+      "metrics": [
+        {
+          "metric": "intercept",
+          "estimate": -0.08436736330186861,
+          "lower": -0.40538930251183464,
+          "upper": 0.22571572048039745,
+          "valid_replicates": 300
+        },
+        {
+          "metric": "slope",
+          "estimate": 0.9587391625778806,
+          "lower": 0.8002956999074895,
+          "upper": 1.1285450480694075,
+          "valid_replicates": 300
+        },
+        {
+          "metric": "observed_expected_ratio",
+          "estimate": 0.9905882093051862,
+          "lower": 0.9079919029147756,
+          "upper": 1.0849862995436885,
+          "valid_replicates": 300
+        }
+      ],
+      "n": 2956,
+      "events": 380,
+      "replicates": 300,
+      "seed": 366,
+      "resampling": "Ordinary customer bootstrap; prevalence varies; percentile 95% intervals conditional on fitted predictions",
+      "bands": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "n": 1193,
+          "events": 74,
+          "predicted": 0.06447525550294722,
+          "observed": 0.06202849958088852,
+          "ci_lower": 0.04969679386335928,
+          "ci_upper": 0.07717168792395356
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "n": 1376,
+          "events": 215,
+          "predicted": 0.14172390153085146,
+          "observed": 0.15625,
+          "ci_lower": 0.13802509741032623,
+          "ci_upper": 0.1763888927240798
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.30000000000000004,
+          "n": 254,
+          "events": 40,
+          "predicted": 0.24428350657106618,
+          "observed": 0.15748031496062992,
+          "ci_lower": 0.11783090260050741,
+          "ci_upper": 0.20733580722251774
+        },
+        {
+          "lower": 0.30000000000000004,
+          "upper": 0.4,
+          "n": 95,
+          "events": 32,
+          "predicted": 0.3406171730961202,
+          "observed": 0.3368421052631579,
+          "ci_lower": 0.24979252148421402,
+          "ci_upper": 0.436573904407614
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 32,
+          "events": 17,
+          "predicted": 0.4407419805868309,
+          "observed": 0.53125,
+          "ci_lower": 0.3644951711897464,
+          "ci_upper": 0.6913061289193116
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6000000000000001,
+          "n": 6,
+          "events": 2,
+          "predicted": 0.5281679262223373,
+          "observed": 0.3333333333333333,
+          "ci_lower": 0.09677141110578041,
+          "ci_upper": 0.700006684861608
+        },
+        {
+          "lower": 0.6000000000000001,
+          "upper": 0.7000000000000001,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        },
+        {
+          "lower": 0.7000000000000001,
+          "upper": 0.8,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        }
+      ]
+    }
+  },
+  {
+    "dimension": "September repayment status",
+    "group": "1",
+    "n": 688,
+    "events": 221,
+    "observed": 0.32122093023255816,
+    "predicted": 0.35438569386978175,
+    "gap": 0.03316476363722358,
+    "gap_lower": -0.00036224945598890335,
+    "gap_upper": 0.06670787604634243,
+    "fpr": 0.11134903640256959,
+    "fnr": 0.7375565610859729,
+    "fpr_lower": 0.085930376706476,
+    "fpr_upper": 0.14310947694362985,
+    "fnr_lower": 0.675847192172072,
+    "fnr_upper": 0.7911485325075792,
+    "small_group": false,
+    "observed_lower": 0.2874049188994489,
+    "observed_upper": 0.35702228784914775,
+    "gap_interval_method": "Ordinary customer bootstrap; unavailable for sparse groups",
+    "calibration_metrics": {
+      "metrics": [
+        {
+          "metric": "intercept",
+          "estimate": -0.08318082378104834,
+          "lower": -0.32227331425370265,
+          "upper": 0.14198044407475605,
+          "valid_replicates": 300
+        },
+        {
+          "metric": "slope",
+          "estimate": 1.1399417330591646,
+          "lower": 0.8482477284091886,
+          "upper": 1.4445701893341836,
+          "valid_replicates": 300
+        },
+        {
+          "metric": "observed_expected_ratio",
+          "estimate": 0.9064161894486352,
+          "lower": 0.8199329497958152,
+          "upper": 0.9880406271502397,
+          "valid_replicates": 300
+        }
+      ],
+      "n": 688,
+      "events": 221,
+      "replicates": 300,
+      "seed": 367,
+      "resampling": "Ordinary customer bootstrap; prevalence varies; percentile 95% intervals conditional on fitted predictions",
+      "bands": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "n": 1,
+          "events": 0,
+          "predicted": 0.09357797232256607,
+          "observed": 0.0,
+          "ci_lower": 0.0,
+          "ci_upper": 0.7934506856227626
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "n": 69,
+          "events": 8,
+          "predicted": 0.16164733583031612,
+          "observed": 0.11594202898550725,
+          "ci_lower": 0.059934981421761596,
+          "ci_upper": 0.21245740530316223
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.30000000000000004,
+          "n": 162,
+          "events": 36,
+          "predicted": 0.2562921027948733,
+          "observed": 0.2222222222222222,
+          "ci_lower": 0.16505652900979678,
+          "ci_upper": 0.29225649368070566
+        },
+        {
+          "lower": 0.30000000000000004,
+          "upper": 0.4,
+          "n": 237,
+          "events": 72,
+          "predicted": 0.3457216449132999,
+          "observed": 0.3037974683544304,
+          "ci_lower": 0.24876057873531393,
+          "ci_upper": 0.3650932799176588
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 109,
+          "events": 47,
+          "predicted": 0.45048422210335626,
+          "observed": 0.43119266055045874,
+          "ci_lower": 0.3421290740356541,
+          "ci_upper": 0.5249410599668218
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6000000000000001,
+          "n": 104,
+          "events": 53,
+          "predicted": 0.541056782180853,
+          "observed": 0.5096153846153846,
+          "ci_lower": 0.41492159966774017,
+          "ci_upper": 0.6036241435174049
+        },
+        {
+          "lower": 0.6000000000000001,
+          "upper": 0.7000000000000001,
+          "n": 6,
+          "events": 5,
+          "predicted": 0.6236795307498916,
+          "observed": 0.8333333333333334,
+          "ci_lower": 0.43649717781352987,
+          "ci_upper": 0.9699466302516935
+        },
+        {
+          "lower": 0.7000000000000001,
+          "upper": 0.8,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        }
+      ]
+    }
+  },
+  {
+    "dimension": "September repayment status",
+    "group": "2",
+    "n": 529,
+    "events": 361,
+    "observed": 0.6824196597353497,
+    "predicted": 0.6865451141277661,
+    "gap": 0.004125454392416291,
+    "gap_lower": -0.033196783588460496,
+    "gap_upper": 0.043447280262024796,
+    "fpr": 0.9583333333333334,
+    "fnr": 0.0221606648199446,
+    "fpr_lower": 0.9165024380310176,
+    "fpr_upper": 0.9796724493149369,
+    "fnr_lower": 0.011271002737998744,
+    "fnr_upper": 0.04311278052180194,
+    "small_group": false,
+    "observed_lower": 0.6415549441793766,
+    "observed_upper": 0.7206541084479381,
+    "gap_interval_method": "Ordinary customer bootstrap; unavailable for sparse groups",
+    "calibration_metrics": {
+      "metrics": [
+        {
+          "metric": "intercept",
+          "estimate": -0.10256527417112629,
+          "lower": -0.5653514683438444,
+          "upper": 0.3682625725886546,
+          "valid_replicates": 300
+        },
+        {
+          "metric": "slope",
+          "estimate": 1.1075751576761967,
+          "lower": 0.5920054547487769,
+          "upper": 1.6545755380463547,
+          "valid_replicates": 300
+        },
+        {
+          "metric": "observed_expected_ratio",
+          "estimate": 0.9939909930061077,
+          "lower": 0.9400601928071567,
+          "upper": 1.05054070629787,
+          "valid_replicates": 300
+        }
+      ],
+      "n": 529,
+      "events": 361,
+      "replicates": 300,
+      "seed": 368,
+      "resampling": "Ordinary customer bootstrap; prevalence varies; percentile 95% intervals conditional on fitted predictions",
+      "bands": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.30000000000000004,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        },
+        {
+          "lower": 0.30000000000000004,
+          "upper": 0.4,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 15,
+          "events": 8,
+          "predicted": 0.4588021437813106,
+          "observed": 0.5333333333333333,
+          "ci_lower": 0.30116980025498397,
+          "ci_upper": 0.7519046463426261
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6000000000000001,
+          "n": 30,
+          "events": 20,
+          "predicted": 0.5630391288904631,
+          "observed": 0.6666666666666666,
+          "ci_lower": 0.4878005164454384,
+          "ci_upper": 0.8076950191632386
+        },
+        {
+          "lower": 0.6000000000000001,
+          "upper": 0.7000000000000001,
+          "n": 227,
+          "events": 140,
+          "predicted": 0.6590770793984327,
+          "observed": 0.6167400881057269,
+          "ci_lower": 0.5520497889835501,
+          "ci_upper": 0.6775450172127133
+        },
+        {
+          "lower": 0.7000000000000001,
+          "upper": 0.8,
+          "n": 254,
+          "events": 190,
+          "predicted": 0.7377461486834374,
+          "observed": 0.7480314960629921,
+          "ci_lower": 0.6912161770638883,
+          "ci_upper": 0.7974562054780592
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 3,
+          "events": 3,
+          "predicted": 0.8037135203724509,
+          "observed": 1.0,
+          "ci_lower": 0.4385029682449546,
+          "ci_upper": 1.0
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        }
+      ]
+    }
+  },
+  {
+    "dimension": "September repayment status",
+    "group": "3",
+    "n": 77,
+    "events": 56,
+    "observed": 0.7272727272727273,
+    "predicted": 0.7363744419293592,
+    "gap": 0.009101714656632004,
+    "gap_lower": null,
+    "gap_upper": null,
+    "fpr": 0.9523809523809523,
+    "fnr": 0.017857142857142856,
+    "fpr_lower": 0.7733063992587743,
+    "fpr_upper": 0.9915440121901737,
+    "fnr_lower": 0.0031592103419746734,
+    "fnr_upper": 0.09445637149397576,
+    "small_group": true,
+    "observed_lower": 0.6187910782504654,
+    "observed_upper": 0.8141550920757009,
+    "gap_interval_method": "Ordinary customer bootstrap; unavailable for sparse groups",
+    "calibration_metrics": {
+      "metrics": [
+        {
+          "metric": "intercept",
+          "estimate": -0.12969681684487838,
+          "lower": -1.4552445498155022,
+          "upper": 1.106461555648623,
+          "valid_replicates": 300
+        },
+        {
+          "metric": "slope",
+          "estimate": 1.0819348089090053,
+          "lower": 0.04616467935550345,
+          "upper": 2.2347204823701006,
+          "valid_replicates": 300
+        },
+        {
+          "metric": "observed_expected_ratio",
+          "estimate": 0.9876398281385422,
+          "lower": 0.8512091237350177,
+          "upper": 1.1084728227797411,
+          "valid_replicates": 300
+        }
+      ],
+      "n": 77,
+      "events": 56,
+      "replicates": 300,
+      "seed": 369,
+      "resampling": "Ordinary customer bootstrap; prevalence varies; percentile 95% intervals conditional on fitted predictions",
+      "bands": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.30000000000000004,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        },
+        {
+          "lower": 0.30000000000000004,
+          "upper": 0.4,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 2,
+          "events": 1,
+          "predicted": 0.48270864234942795,
+          "observed": 0.5,
+          "ci_lower": 0.09453120573423074,
+          "ci_upper": 0.9054687942657693
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6000000000000001,
+          "n": 8,
+          "events": 4,
+          "predicted": 0.558742682315265,
+          "observed": 0.5,
+          "ci_lower": 0.21521606221387757,
+          "ci_upper": 0.7847839377861224
+        },
+        {
+          "lower": 0.6000000000000001,
+          "upper": 0.7000000000000001,
+          "n": 11,
+          "events": 7,
+          "predicted": 0.6651090084503581,
+          "observed": 0.6363636363636364,
+          "ci_lower": 0.35380117450784887,
+          "ci_upper": 0.8483352890463243
+        },
+        {
+          "lower": 0.7000000000000001,
+          "upper": 0.8,
+          "n": 35,
+          "events": 26,
+          "predicted": 0.7619595544758423,
+          "observed": 0.7428571428571429,
+          "ci_lower": 0.5793069315616084,
+          "ci_upper": 0.8583697293093955
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 21,
+          "events": 18,
+          "predicted": 0.8228899897967269,
+          "observed": 0.8571428571428571,
+          "ci_lower": 0.6536393971937906,
+          "ci_upper": 0.9501898750027473
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        }
+      ]
+    }
+  },
+  {
+    "dimension": "September repayment status",
+    "group": "4",
+    "n": 18,
+    "events": 14,
+    "observed": 0.7777777777777778,
+    "predicted": 0.5928891348096313,
+    "gap": -0.18488864296814642,
+    "gap_lower": null,
+    "gap_upper": null,
+    "fpr": 1.0,
+    "fnr": 0.14285714285714285,
+    "fpr_lower": 0.5101091635454027,
+    "fpr_upper": 1.0,
+    "fnr_lower": 0.040093921271464966,
+    "fnr_upper": 0.39941379496970353,
+    "small_group": true,
+    "observed_lower": 0.5478541568378739,
+    "observed_upper": 0.9099907189139831,
+    "gap_interval_method": "Ordinary customer bootstrap; unavailable for sparse groups",
+    "calibration_metrics": {
+      "metrics": [
+        {
+          "metric": "intercept",
+          "estimate": 2.038837645875562,
+          "lower": null,
+          "upper": null,
+          "valid_replicates": 0
+        },
+        {
+          "metric": "slope",
+          "estimate": -1.9807761002311854,
+          "lower": null,
+          "upper": null,
+          "valid_replicates": 0
+        },
+        {
+          "metric": "observed_expected_ratio",
+          "estimate": 1.3118435338294936,
+          "lower": 0.9240414854520523,
+          "upper": 1.5348412805813498,
+          "valid_replicates": 0,
+          "method": "Wilson event-rate interval divided by fixed mean prediction; conditional approximation"
+        }
+      ],
+      "reason": "Insufficient events/non-events or prediction variation for calibration regression uncertainty",
+      "n": 18,
+      "events": 14,
+      "replicates": 300,
+      "bands": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.30000000000000004,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        },
+        {
+          "lower": 0.30000000000000004,
+          "upper": 0.4,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 2,
+          "events": 2,
+          "predicted": 0.49048461862990367,
+          "observed": 1.0,
+          "ci_lower": 0.34238022750665303,
+          "ci_upper": 1.0
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6000000000000001,
+          "n": 7,
+          "events": 6,
+          "predicted": 0.5808705637397281,
+          "observed": 0.8571428571428571,
+          "ci_lower": 0.4868721707256811,
+          "ci_upper": 0.9743203756552565
+        },
+        {
+          "lower": 0.6000000000000001,
+          "upper": 0.7000000000000001,
+          "n": 9,
+          "events": 6,
+          "predicted": 0.6249934714594956,
+          "observed": 0.6666666666666666,
+          "ci_lower": 0.3542021355803963,
+          "ci_upper": 0.879416181613089
+        },
+        {
+          "lower": 0.7000000000000001,
+          "upper": 0.8,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        }
+      ]
+    }
+  },
+  {
+    "dimension": "September repayment status",
+    "group": "5",
+    "n": 8,
+    "events": 5,
+    "observed": 0.625,
+    "predicted": 0.575741381717537,
+    "gap": -0.049258618282462974,
+    "gap_lower": null,
+    "gap_upper": null,
+    "fpr": 1.0,
+    "fnr": 0.0,
+    "fpr_lower": 0.4385029682449546,
+    "fpr_upper": 1.0,
+    "fnr_lower": 0.0,
+    "fnr_upper": 0.43448246478317476,
+    "small_group": true,
+    "observed_lower": 0.30574239460262737,
+    "observed_upper": 0.8631557141764026,
+    "gap_interval_method": "Ordinary customer bootstrap; unavailable for sparse groups",
+    "calibration_metrics": {
+      "metrics": [
+        {
+          "metric": "intercept",
+          "estimate": -4.592631264195928,
+          "lower": null,
+          "upper": null,
+          "valid_replicates": 0
+        },
+        {
+          "metric": "slope",
+          "estimate": 18.132698481843562,
+          "lower": null,
+          "upper": null,
+          "valid_replicates": 0
+        },
+        {
+          "metric": "observed_expected_ratio",
+          "estimate": 1.0855568486939673,
+          "lower": 0.531041200635161,
+          "upper": 1.4992073552216423,
+          "valid_replicates": 0,
+          "method": "Wilson event-rate interval divided by fixed mean prediction; conditional approximation"
+        }
+      ],
+      "reason": "Insufficient events/non-events or prediction variation for calibration regression uncertainty",
+      "n": 8,
+      "events": 5,
+      "replicates": 300,
+      "bands": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.30000000000000004,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        },
+        {
+          "lower": 0.30000000000000004,
+          "upper": 0.4,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6000000000000001,
+          "n": 6,
+          "events": 3,
+          "predicted": 0.5630701166593312,
+          "observed": 0.5,
+          "ci_lower": 0.1876163064826506,
+          "ci_upper": 0.8123836935173494
+        },
+        {
+          "lower": 0.6000000000000001,
+          "upper": 0.7000000000000001,
+          "n": 2,
+          "events": 2,
+          "predicted": 0.6137551768921548,
+          "observed": 1.0,
+          "ci_lower": 0.34238022750665303,
+          "ci_upper": 1.0
+        },
+        {
+          "lower": 0.7000000000000001,
+          "upper": 0.8,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        }
+      ]
+    }
+  },
+  {
+    "dimension": "September repayment status",
+    "group": "6",
+    "n": 1,
+    "events": 0,
+    "observed": 0.0,
+    "predicted": 0.5560649695023167,
+    "gap": 0.5560649695023167,
+    "gap_lower": null,
+    "gap_upper": null,
+    "fpr": 1.0,
+    "fnr": null,
+    "fpr_lower": 0.20654931437723745,
+    "fpr_upper": 1.0,
+    "fnr_lower": null,
+    "fnr_upper": null,
+    "small_group": true,
+    "observed_lower": 0.0,
+    "observed_upper": 0.7934506856227626,
+    "gap_interval_method": "Ordinary customer bootstrap; unavailable for sparse groups",
+    "calibration_metrics": {
+      "metrics": [
+        {
+          "metric": "intercept",
+          "estimate": null,
+          "lower": null,
+          "upper": null,
+          "valid_replicates": 0
+        },
+        {
+          "metric": "slope",
+          "estimate": null,
+          "lower": null,
+          "upper": null,
+          "valid_replicates": 0
+        },
+        {
+          "metric": "observed_expected_ratio",
+          "estimate": 0.0,
+          "lower": 0.0,
+          "upper": 1.4269028425453745,
+          "valid_replicates": 0,
+          "method": "Wilson event-rate interval divided by fixed mean prediction; conditional approximation"
+        }
+      ],
+      "reason": "Insufficient events/non-events or prediction variation for calibration regression uncertainty",
+      "n": 1,
+      "events": 0,
+      "replicates": 300,
+      "bands": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.30000000000000004,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        },
+        {
+          "lower": 0.30000000000000004,
+          "upper": 0.4,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6000000000000001,
+          "n": 1,
+          "events": 0,
+          "predicted": 0.5560649695023167,
+          "observed": 0.0,
+          "ci_lower": 0.0,
+          "ci_upper": 0.7934506856227626
+        },
+        {
+          "lower": 0.6000000000000001,
+          "upper": 0.7000000000000001,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        },
+        {
+          "lower": 0.7000000000000001,
+          "upper": 0.8,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        }
+      ]
+    }
+  },
+  {
+    "dimension": "September repayment status",
+    "group": "8",
+    "n": 3,
+    "events": 3,
+    "observed": 1.0,
+    "predicted": 0.6123684754815457,
+    "gap": -0.3876315245184543,
+    "gap_lower": null,
+    "gap_upper": null,
+    "fpr": null,
+    "fnr": 0.0,
+    "fpr_lower": null,
+    "fpr_upper": null,
+    "fnr_lower": 5.551115123125783e-17,
+    "fnr_upper": 0.5614970317550454,
+    "small_group": true,
+    "observed_lower": 0.4385029682449546,
+    "observed_upper": 1.0,
+    "gap_interval_method": "Ordinary customer bootstrap; unavailable for sparse groups",
+    "calibration_metrics": {
+      "metrics": [
+        {
+          "metric": "intercept",
+          "estimate": null,
+          "lower": null,
+          "upper": null,
+          "valid_replicates": 0
+        },
+        {
+          "metric": "slope",
+          "estimate": null,
+          "lower": null,
+          "upper": null,
+          "valid_replicates": 0
+        },
+        {
+          "metric": "observed_expected_ratio",
+          "estimate": 1.633003722495078,
+          "lower": 0.7160769794691518,
+          "upper": 1.633003722495078,
+          "valid_replicates": 0,
+          "method": "Wilson event-rate interval divided by fixed mean prediction; conditional approximation"
+        }
+      ],
+      "reason": "Insufficient events/non-events or prediction variation for calibration regression uncertainty",
+      "n": 3,
+      "events": 3,
+      "replicates": 300,
+      "bands": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.30000000000000004,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        },
+        {
+          "lower": 0.30000000000000004,
+          "upper": 0.4,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6000000000000001,
+          "n": 1,
+          "events": 1,
+          "predicted": 0.543411691063233,
+          "observed": 1.0,
+          "ci_lower": 0.20654931437723745,
+          "ci_upper": 1.0
+        },
+        {
+          "lower": 0.6000000000000001,
+          "upper": 0.7000000000000001,
+          "n": 2,
+          "events": 2,
+          "predicted": 0.6468468676907021,
+          "observed": 1.0,
+          "ci_lower": 0.34238022750665303,
+          "ci_upper": 1.0
+        },
+        {
+          "lower": 0.7000000000000001,
+          "upper": 0.8,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 0,
+          "events": 0,
+          "predicted": null,
+          "observed": null,
+          "ci_lower": null,
+          "ci_upper": null
+        }
+      ]
+    }
+  }
+]

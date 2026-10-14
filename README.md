@@ -12,6 +12,27 @@ The local link works while you run the server on your own computer. The owner wi
 
 Quality checks: **57 tests pass**, Ruff passes, six artifact hashes verify, and [Linux CI passes](https://github.com/Priynka-Roy/creditrisk-ai-explainable-credit-risk/actions/runs/38615452456).
 
+## Version 2: inference, simulated risk and governance
+
+Version 2 preserves [the complete V1 baseline](docs/V1_BASELINE.md), tag `v1.0.0` and original artifact/report bytes. It extends the same eight-section app with paired fitted-model comparison intervals, calibration and subgroup uncertainty, 100 development-only logistic resamples, hypothetical Monte Carlo credit losses with common-factor dependence, discrete VaR/Expected Shortfall and illustrative review criteria.
+
+**The original V1 test has already been inspected. Every additional V2 analysis of that test is retrospective.** No new model, feature group, calibration or threshold is selected using it. Simulation assumptions are not observed defaults or measured macroeconomic shocks. Monitoring labels do not approve a model for banking use.
+
+Actual V2 primary boosting−L2 log-loss difference: **−0.008860 [−0.012153,−0.005617]**; KS difference interval includes zero. Overall calibration slope interval: **0.924002–1.045924**. With identical assumed marginals/LGD/EAD, independent versus rho 0.15 simulations share analytical EL **9,933,705 NTD**, while ES95 rises from **11,016,000** to **20,115,180 NTD**. These are retrospective/assumed results, not a newly validated model improvement. All 10 default educational criteria lie within tolerance; changing an assumed AUC floor to 0.80 suggests review rather than certifying performance.
+
+[V2 results](docs/V2_RESULTS.md) · [Paired comparisons](docs/V2_MODEL_COMPARISON.md) · [Calibration uncertainty](docs/V2_CALIBRATION_UNCERTAINTY.md) · [Simulation](docs/V2_RISK_SIMULATION.md) · [Governance / executive model-risk summary](docs/V2_MODEL_GOVERNANCE.md) · [Initial audit](docs/V2_TECHNICAL_AUDIT.md)
+
+To reproduce V2 after downloading the hash-verified source and installing dependencies:
+
+```bash
+python scripts/run_v2.py
+python scripts/verify_artifacts.py
+ruff check .
+pytest
+```
+
+The script reconstructs the original models/predictions using frozen parameters rather than inventing paired predictions from aggregates. It checks original-metric agreement and file preservation, then writes **separate** `reports/v2/` and `artifacts/v2/` outputs. The registry records seeds, resampling, versions, source/split hashes, runtime, hypothetical assumptions and results. See [methodology](docs/V2_METHODOLOGY.md). Private aligned predictions remain ignored local files; the dashboard receives aggregate evidence only.
+
 ## What the project answers
 
 Can historical repayment patterns support useful probability estimates? Does nonlinear modeling improve proper probability scores over interpretable logistic baselines? Does independent recalibration help? How do uncertainty, subgroup differences and hypothetical exposure/loss assumptions change the interpretation?
@@ -42,9 +63,9 @@ The calibration partition is stratified into fit/selection halves; the chosen ma
 
 **Calibration result:** no additional calibration was selected. Independent selection log loss is 0.43354 (none), 0.43391 (sigmoid) and 0.45175 (isotonic). Implementing calibration does not imply that it improves probabilities.
 
-## Actual untouched-holdout audit
+## Original V1 untouched-holdout audit (now historical)
 
-All numbers below come from [`reports/results.json`](reports/results.json). PR-AUC means average precision, not trapezoidal area. Lower Brier/log loss is better. Model comparisons on this holdout are descriptive audit outputs, not a second selection step.
+The original V1 audit was performed after frozen development decisions. Its customers are no longer a fresh holdout for V2. All numbers below come from [`reports/results.json`](reports/results.json). PR-AUC means average precision, not trapezoidal area. Lower Brier/log loss is better. Model comparisons on this holdout are descriptive audit outputs, not a second selection step.
 
 | Model | ROC-AUC | Average precision | KS | Brier | Log loss |
 |---|---:|---:|---:|---:|---:|
@@ -121,3 +142,9 @@ The owner can deploy `streamlit_app.py`, branch `main`, Python 3.12 to Streamlit
 ## Limits and next steps
 
 Historical Taiwan 2005 results do not validate present-day European borrowers. No true temporal split, measured EAD/LGD, lender approval, causal explanation or regulatory compliance is available. Future work requires properly governed time-stamped cohorts, documented default definitions, external validation and measured exposures/recoveries; see [full limitations and future work](docs/LIMITATIONS.md).
+
+## Version 2 application screens
+
+![Version 2 loss simulation](docs/assets/v2/risk-simulation.jpg)
+
+![Version 2 paired comparison](docs/assets/v2/paired-comparison.jpg)
