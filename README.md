@@ -10,7 +10,7 @@ A banking-oriented analytics portfolio project by **Priynka Roy**: logistic regr
 
 The local link works while you run the server on your own computer. The owner will deploy to Streamlit Community Cloud after review; no public URL is claimed.
 
-Quality checks: **57 tests pass**, Ruff passes, six artifact hashes verify, and [Linux CI passes](https://github.com/Priynka-Roy/creditrisk-ai-explainable-credit-risk/actions/runs/38615452456).
+Quality checks: **112 tests pass**, Ruff passes, 12 V2 and seven preserved V1 fingerprints verify, and [Linux CI passes](https://github.com/Priynka-Roy/creditrisk-ai-explainable-credit-risk/actions/runs/38643134133). Version 2 was merged through [PR #1](https://github.com/Priynka-Roy/creditrisk-ai-explainable-credit-risk/pull/1).
 
 ## Version 2: inference, simulated risk and governance
 
@@ -27,6 +27,7 @@ To reproduce V2 after downloading the hash-verified source and installing depend
 ```bash
 python scripts/run_v2.py
 python scripts/verify_artifacts.py
+python scripts/verify_v2_artifacts.py
 ruff check .
 pytest
 ```
@@ -109,6 +110,8 @@ Startup reads supplied lightweight aggregate artifacts: no original-data downloa
 ## Reproduce the analytical release
 
 From the activated environment and repository root:
+
+These historical V1 reproduction commands write V1 artifacts. Run them only in an isolated checkout of tag `v1.0.0`; use the V2 command above in the current working tree to preserve the frozen original files.
 
 ```bash
 python scripts/download_data.py
