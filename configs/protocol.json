@@ -1,0 +1,15 @@
+{
+  "version": "1.0-frozen-before-experiments",
+  "seed": 42,
+  "split_fractions": {"training": 0.5, "validation": 0.15, "calibration": 0.15, "test": 0.2},
+  "selection": "Lowest validation log loss; prefer simpler model within absolute 0.005 log loss, provided Brier difference <=0.002 and ROC-AUC difference <=0.01. Simplicity order baseline logistic, L2 logistic, L1 logistic, histogram boosting.",
+  "cv": {"folds": 3, "score": "neg_log_loss", "shuffle": true},
+  "calibration": "Stratify calibration partition 50/50 fit/selection. Compare none, sigmoid on logits, isotonic; prefer none then sigmoid within 0.002 selection log loss of best. Refit chosen calibration method on entire calibration partition. Base models remain training-only. Final test scored once after decisions frozen.",
+  "thresholds": [0.1, 0.2, 0.3, 0.5, 0.7],
+  "bootstrap_replicates": 300,
+  "coefficient_bootstrap_replicates": 20,
+  "fairness_min_n": 100,
+  "feature_ablation": "Compare raw-only vs raw+seven engineered summaries plus ratio-availability indicator L2 logistic on validation; include engineered group only if log loss improvement >=0.002. No test feature selection.",
+  "raw_preservation": "Original UCI archive and XLS unchanged; excluded from Git. Identifier used only for split audit, never predictor. Undocumented category codes retained separately.",
+  "test_policy": "Alternative final-test comparisons are predeclared descriptive audit only; do not select/refit after seeing final test. Bootstrap intervals conditional on split and fitted model, not population or temporal uncertainty."
+}

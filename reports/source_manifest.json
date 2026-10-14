@@ -1,0 +1,16 @@
+{
+  "source_url": "https://archive.ics.uci.edu/static/public/350/default%2Bof%2Bcredit%2Bcard%2Bclients.zip",
+  "doi": "https://doi.org/10.24432/C55S3H",
+  "license": "CC BY 4.0",
+  "attribution": "Yeh, I. (2009). Default of Credit Card Clients. UCI Machine Learning Repository.",
+  "files": {
+    "uci-default-credit-card.zip": {
+      "sha256": "56c885f84457f6680f8438f02bfcdac9579323d8a94465ee5f26e32baa727602",
+      "bytes": 5539494
+    },
+    "default of credit card clients.xls": {
+      "sha256": "30c6be3abd8dcfd3e6096c828bad8c2f011238620f5369220bd60cfc82700933",
+      "bytes": 5539328
+    }
+  }
+}

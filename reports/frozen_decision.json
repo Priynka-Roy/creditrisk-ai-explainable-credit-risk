@@ -1,0 +1,146 @@
+{
+  "selected_model": "boosting",
+  "selected_calibration": "none",
+  "validation_metrics": {
+    "baseline": {
+      "roc_auc": 0.7734039670535273,
+      "pr_auc": 0.5407574078536143,
+      "ks": 0.40545666994028634,
+      "brier": 0.13678392797310338,
+      "log_loss": 0.43590322641996976,
+      "mean_probability": 0.21816216536689798,
+      "observed_rate": 0.22111111111111112,
+      "observed_expected_ratio": 1.0135172188965658,
+      "intercept": -0.050802184527564596,
+      "slope": 0.9358367161031855
+    },
+    "l2": {
+      "roc_auc": 0.7734948637624642,
+      "pr_auc": 0.5392817673462995,
+      "ks": 0.4127943569487953,
+      "brier": 0.13690834133427998,
+      "log_loss": 0.43567136369560566,
+      "mean_probability": 0.21956223487323276,
+      "observed_rate": 0.22111111111111112,
+      "observed_expected_ratio": 1.0070543836410328,
+      "intercept": -0.03351747026434442,
+      "slope": 0.9601839246469652
+    },
+    "l1": {
+      "roc_auc": 0.7739378776908794,
+      "pr_auc": 0.5430299413216673,
+      "ks": 0.40558426942128617,
+      "brier": 0.13669663974237584,
+      "log_loss": 0.4353089341352081,
+      "mean_probability": 0.21846061071026618,
+      "observed_rate": 0.22111111111111112,
+      "observed_expected_ratio": 1.012132623781594,
+      "intercept": -0.040391835407386674,
+      "slope": 0.9469505370100287
+    },
+    "boosting": {
+      "roc_auc": 0.7815264625552871,
+      "pr_auc": 0.5454340665929923,
+      "ks": 0.42146251944458385,
+      "brier": 0.13557250885579783,
+      "log_loss": 0.4300176655443047,
+      "mean_probability": 0.21772624795178716,
+      "observed_rate": 0.22111111111111112,
+      "observed_expected_ratio": 1.0155464175365456,
+      "intercept": 0.01651939625907451,
+      "slope": 0.9921172642062126
+    }
+  },
+  "hyperparameters": {
+    "baseline": {
+      "penalty": null
+    },
+    "l2": {
+      "best_params": {
+        "model__C": 0.1
+      },
+      "cv_log_loss": 0.42771268090543096
+    },
+    "l1": {
+      "best_params": {
+        "model__C": 1
+      },
+      "cv_log_loss": 0.42767505174977677
+    },
+    "boosting": {
+      "best_params": {
+        "model__l2_regularization": 10,
+        "model__learning_rate": 0.05,
+        "model__max_leaf_nodes": 7
+      },
+      "cv_log_loss": 0.4235314861800685
+    }
+  },
+  "feature_ablation": {
+    "raw": {
+      "roc_auc": 0.7696599975627065,
+      "pr_auc": 0.5363328292520849,
+      "ks": 0.40286597036537897,
+      "brier": 0.13784929434285645,
+      "log_loss": 0.4386325702766323,
+      "mean_probability": 0.21826360253069657,
+      "observed_rate": 0.22111111111111112,
+      "observed_expected_ratio": 1.013046190695098,
+      "intercept": -0.04247859984079212,
+      "slope": 0.9454055400157408
+    },
+    "engineered": {
+      "roc_auc": 0.7738859776772593,
+      "pr_auc": 0.5423721275533409,
+      "ks": 0.40551115061756715,
+      "brier": 0.13670722774322122,
+      "log_loss": 0.4353515427424444,
+      "mean_probability": 0.21848662318832027,
+      "observed_rate": 0.22111111111111112,
+      "observed_expected_ratio": 1.01201212176971,
+      "intercept": -0.042214412180836505,
+      "slope": 0.9454295888137897
+    }
+  },
+  "include_engineered": true,
+  "calibration_selection_metrics": {
+    "none": {
+      "roc_auc": 0.7714826199776275,
+      "pr_auc": 0.5471782455568707,
+      "ks": 0.43830114980469825,
+      "brier": 0.13592509176728243,
+      "log_loss": 0.433539442303047,
+      "mean_probability": 0.22024295654511086,
+      "observed_rate": 0.22133333333333333,
+      "observed_expected_ratio": 1.0049507907327748,
+      "intercept": -0.031323148243964864,
+      "slope": 0.9635242445269903
+    },
+    "sigmoid": {
+      "roc_auc": 0.7714826199776275,
+      "pr_auc": 0.5471782455568707,
+      "ks": 0.43830114980469825,
+      "brier": 0.13599567528200157,
+      "log_loss": 0.43390908625549407,
+      "mean_probability": 0.21905457723511074,
+      "observed_rate": 0.22133333333333333,
+      "observed_expected_ratio": 1.0104026865221667,
+      "intercept": -0.06114624521556617,
+      "slope": 0.9277489237028475
+    },
+    "isotonic": {
+      "roc_auc": 0.768597792998478,
+      "pr_auc": 0.5212147556712498,
+      "ks": 0.42500825218682947,
+      "brier": 0.13759074626997697,
+      "log_loss": 0.45174734337229133,
+      "mean_probability": 0.21909281479409734,
+      "observed_rate": 0.22133333333333333,
+      "observed_expected_ratio": 1.01022634421554,
+      "intercept": -0.1544244481614986,
+      "slope": 0.8460208603806558
+    }
+  },
+  "protocol_sha256": "6c211be16b022066edfa713ae94a701538500f1906e5fe263e8df10767638f63",
+  "test_access": "Not accessed before writing this decision file"
+}

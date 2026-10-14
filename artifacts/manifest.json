@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "sha256": {
+    "artifacts/dashboard.json": "f18d9403113eaa671a14e9e851d03023d49c13a96606560496d058ae86f7e971",
+    "reports/results.json": "687b70868880629ee27e0078c510e4a321dec1721a605bbb4f2d44bad484a81e",
+    "reports/frozen_decision.json": "111c42c9d6a9bc2cea14310b926cebd724f36bae2cf1b8383fdbe56d84f28fd3",
+    "reports/data_audit.json": "2a441d58ccb59d9187d6e1957d3739521d508dbef2dfa4d72ffc4d62d56c5db6",
+    "reports/source_manifest.json": "28bab9c962e7871802d6da85ad20107bee693276275e3458b84e6196e0392d03",
+    "configs/protocol.json": "6c211be16b022066edfa713ae94a701538500f1906e5fe263e8df10767638f63"
+  }
+}
