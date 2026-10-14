@@ -10,6 +10,8 @@ A banking-oriented analytics portfolio project by **Priynka Roy**: logistic regr
 
 The local link works while you run the server on your own computer. The owner will deploy to Streamlit Community Cloud after review; no public URL is claimed.
 
+Quality checks: **57 tests pass**, Ruff passes, six artifact hashes verify, and [Linux CI passes](https://github.com/Priynka-Roy/creditrisk-ai-explainable-credit-risk/actions/runs/38615452456).
+
 ## What the project answers
 
 Can historical repayment patterns support useful probability estimates? Does nonlinear modeling improve proper probability scores over interpretable logistic baselines? Does independent recalibration help? How do uncertainty, subgroup differences and hypothetical exposure/loss assumptions change the interpretation?
